@@ -1,0 +1,13 @@
+@import "colors";
+@import "fonts";
+
+@mixin pageTitle {
+    font-family: $REGULAR_FONT;
+    font-size: $PAGE_TITLE_FONT_SIZE;
+    font-weight: bold;
+}
+
+@mixin generalFont {
+    font-family: $REGULAR_FONT;
+    font-size: $GENERAL_FONT_SIZE;
+}
