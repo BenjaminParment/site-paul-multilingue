@@ -1,11 +1,11 @@
-import Header from "../src/components/header"
+import IndexPage from '../src/pages'
 import React from "react"
 import renderer from "react-test-renderer"
 
 describe("Header", () => {
   it("renders correctly", () => {
     const tree = renderer
-      .create(<Header siteTitle="Default Starter" />)
+      .create(<IndexPage />)
       .toJSON()
     expect(tree).toMatchSnapshot()
   })
