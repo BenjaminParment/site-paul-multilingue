@@ -1,9 +1,9 @@
 {
     "title": "Hallo",
     "header_buttons": {
-        "header_1": "Profil",
-        "header_2": "Activiteiten",
-        "header_3": "Kontact"
+        "profile": "Profil",
+        "activities": "Activiteiten",
+        "contact": "Kontact"
     },
     "footer": {
         "footer_1": "Stichting Mbote",

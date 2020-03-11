@@ -1,18 +1,20 @@
 import "./HeaderButton.scss"
 
 import { FormattedMessage } from "gatsby-plugin-intl"
+import { Link } from "gatsby-plugin-intl"
 import React from "react"
 
 interface HeaderButtonProps {
     id: string
+    pageUrl: string
 }
 
-const HeaderButton: React.FC<HeaderButtonProps> = ({ id }) => {
+const HeaderButton: React.FC<HeaderButtonProps> = ({ id, pageUrl }) => {
     return (
         <div className="header-button-container">
-            <button className="header-button">
+            <Link to={pageUrl} className="header-button">
                 <FormattedMessage id={id} />
-            </button>
+            </Link>
         </div>
     )
 }
