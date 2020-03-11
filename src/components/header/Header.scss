@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: $GREY;
-    
+
     .left-container {
         margin-left: $MARGIN_HORIZONTAL;
         display: flex;
@@ -19,15 +19,5 @@
         .header-title {
             @include pageTitle;
         }
-
-        .header-buttons {
-            padding-left: 20px;
-            @include generalFont;
-        }
-    }
-
-    .header-language-select {
-        margin-right: $MARGIN_HORIZONTAL;
-        @include generalFont;
     }
 }
