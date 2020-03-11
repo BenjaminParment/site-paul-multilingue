@@ -4,5 +4,9 @@
         "header_1": "Profil",
         "header_2": "Activiteiten",
         "header_3": "Kontact"
+    },
+    "footer": {
+        "footer_1": "Stichting Mbote",
+        "footer_2": "Kvk nummer 70864365"
     }
 }

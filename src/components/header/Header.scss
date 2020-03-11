@@ -3,21 +3,29 @@
 @import "~src/shared/style/variables";
 
 .header-parent-container {
+    position: fixed;
     width: 100%;
-    height: 100px;
+    height: $HEADER_HEIGHT;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: $GREY;
+    border-top: $HEADER_TOP_BORDER solid $PRIMARY_COLOR;
+    border-bottom: 1px solid $LIGHT_FORGROUND_COLOR;
 
     .left-container {
         margin-left: $MARGIN_HORIZONTAL;
         display: flex;
         flex-direction: row;
         align-items: center;
+
         .header-title {
             @include pageTitle;
+        }
+
+        .header-buttons {
+            padding-top: 10px;
+            display: flex;
         }
     }
 }
