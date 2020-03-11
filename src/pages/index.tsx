@@ -1,10 +1,29 @@
-import "./index.scss";
+import "./index.scss"
 
-import Home from "components/home/Home";
-import React from "react";
+import { IntlProvider, IntlShape, injectIntl } from "gatsby-plugin-intl"
 
-const IndexPage = () => (
-  <Home/>
-)
+import Home from "components/home/Home"
+import React from "react"
+import flatten from "flat"
+import fr from "intl/fr.json" // French Content
+import nl from "intl/nl.json" // Dutch Content
 
-export default IndexPage;
+const messages = { fr, nl }
+
+interface IndexPageProps {
+    intl: IntlShape
+}
+
+const IndexPage: React.FC<IndexPageProps> = ({ intl }) => {
+    return (
+        <IntlProvider
+            locale={intl.locale}
+            defaultLocale={"nl"}
+            messages={flatten(messages[intl.locale])}
+        >
+            <Home />
+        </IntlProvider>
+    )
+}
+
+export default injectIntl(IndexPage)

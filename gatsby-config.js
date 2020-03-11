@@ -16,7 +16,21 @@ module.exports = {
         src: path.join(__dirname, 'src'),
         components: path.join(__dirname, 'src/components'),
         pages: path.join(__dirname, 'src/pages'),
-        shared: path.join(__dirname, 'src/shared')
+        shared: path.join(__dirname, 'src/shared'),
+        intl: path.join(__dirname, 'src/intl')
+      }
+    },
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        // language JSON resource path
+        path: `${__dirname}/src/intl`,
+        // supported language
+        languages: [`nl`, `fr`],
+        // language file path
+        defaultLanguage: `nl`,
+        // option to redirect to `/nl` when connecting `/`
+        redirect: true,
       }
     },
     {

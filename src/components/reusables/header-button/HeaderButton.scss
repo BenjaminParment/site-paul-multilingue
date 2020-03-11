@@ -1,0 +1,12 @@
+@import "~shared/style/mixins";
+
+.header-button-container {
+    padding-left: 20px;
+
+    .header-button {
+        padding-top: 5px;
+        @include headerButton;
+        border: none;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,12 @@
+@import "~src/shared/style/mixins";
+@import "~src/shared/style/variables";
+
+.language-button-container {
+    margin-right: $MARGIN_HORIZONTAL;
+
+    .language-button {
+        @include generalFont;
+        border: none;
+        cursor: pointer;
+    }
+}
