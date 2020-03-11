@@ -1,8 +1,14 @@
 import "./Header.scss"
 
-import { IntlShape, injectIntl } from "gatsby-plugin-intl"
+import {
+    ACTIVITIES_PATH,
+    CONTACT_PATH,
+    HOMEPAGE_PATH,
+    PROFILE_PATH,
+} from "shared/routes"
+import { IntlShape, Link, injectIntl } from "gatsby-plugin-intl"
 
-import HeaderButton from "components/reusables/header-button/HeaderButton"
+import HeaderButton from "components/header/header-button/HeaderButton"
 import LanguageButton from "components/header/language-button/LanguageButton"
 import React from "react"
 import { getChangeLanguage } from "shared/utils/languageUtils"
@@ -15,13 +21,22 @@ const Header: React.FC<HeaderProps> = ({ intl }) => {
     return (
         <div className="header-parent-container">
             <div className="left-container">
-                <span className="header-title">
+                <Link className="header-title" to={HOMEPAGE_PATH}>
                     {intl.formatMessage({ id: "title" })}
-                </span>
+                </Link>
                 <span className="header-buttons">
-                    <HeaderButton id="header_buttons.header_1" />
-                    <HeaderButton id="header_buttons.header_2" />
-                    <HeaderButton id="header_buttons.header_3" />
+                    <HeaderButton
+                        id="header_buttons.profile"
+                        pageUrl={PROFILE_PATH}
+                    />
+                    <HeaderButton
+                        id="header_buttons.activities"
+                        pageUrl={ACTIVITIES_PATH}
+                    />
+                    <HeaderButton
+                        id="header_buttons.contact"
+                        pageUrl={CONTACT_PATH}
+                    />
                 </span>
             </div>
             <LanguageButton value={getChangeLanguage(intl)} />

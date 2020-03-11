@@ -1,4 +1,5 @@
 @import "~shared/style/mixins";
+@import "~shared/style/colors";
 
 .header-button-container {
     padding-left: 20px;
@@ -8,5 +9,7 @@
         border: none;
         background-color: transparent;
         cursor: pointer;
+        text-decoration: none;
+        color: $PRIMARY_TEXT_COLOR;
     }
 }

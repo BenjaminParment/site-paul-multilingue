@@ -1,9 +1,9 @@
 {
     "title": "Bonjour",
     "header_buttons": {
-        "header_1": "Profile",
-        "header_2": "Activite",
-        "header_3": "Contacte"
+        "profile": "Profile",
+        "activities": "Activite",
+        "contact": "Contacte"
     },
     "footer": {
         "footer_1": "Fondation Mbote",

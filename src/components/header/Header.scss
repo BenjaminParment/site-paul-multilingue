@@ -23,6 +23,8 @@ $HEADER_BUTTONS_PADDING_TOP: 10px;
 
         .header-title {
             @include pageTitle;
+            text-decoration: none;
+            color: $PRIMARY_TEXT_COLOR;
         }
 
         .header-buttons {
