@@ -4,5 +4,9 @@
         "header_1": "Profile",
         "header_2": "Activite",
         "header_3": "Contacte"
+    },
+    "footer": {
+        "footer_1": "Fondation Mbote",
+        "footer_2": "Kvk numero 70864365"
     }
 }

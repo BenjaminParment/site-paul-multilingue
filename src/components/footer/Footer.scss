@@ -1,0 +1,26 @@
+@import "~shared/style/colors";
+@import "~shared/style/mixins";
+@import "~shared/style/variables";
+
+$PADDING_TEXT_VERT: 10px;
+
+.footer-parent-container {
+    position: fixed;
+    bottom: 0;
+    background-color: $PRIMARY_COLOR;
+    width: 100%;
+    height: $FOOTER_HEIGHT;
+    display: flex;
+
+    .footer-info {
+        padding: $PADDING_TEXT_VERT 0px $PADDING_TEXT_VERT $MARGIN_HORIZONTAL;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .single-info {
+            color: $LIGHTEST_FORGROUND_COLOR;
+            @include generalFont;
+        }
+    }
+}

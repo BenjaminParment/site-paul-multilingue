@@ -18,9 +18,11 @@ const Header: React.FC<HeaderProps> = ({ intl }) => {
                 <span className="header-title">
                     {intl.formatMessage({ id: "title" })}
                 </span>
-                <HeaderButton id="header_buttons.header_1" />
-                <HeaderButton id="header_buttons.header_2" />
-                <HeaderButton id="header_buttons.header_3" />
+                <span className="header-buttons">
+                    <HeaderButton id="header_buttons.header_1" />
+                    <HeaderButton id="header_buttons.header_2" />
+                    <HeaderButton id="header_buttons.header_3" />
+                </span>
             </div>
             <LanguageButton value={getChangeLanguage(intl)} />
         </div>
