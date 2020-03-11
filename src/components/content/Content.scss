@@ -1,0 +1,26 @@
+@import "~shared/style/variables";
+
+$CONTENT_VERTICAL_PADDING: 25px;
+
+.body-parent-container {
+    position: relative;
+    top: ($HEADER_HEIGHT + $HEADER_TOP_BORDER);
+    height: calc(
+        100vh -
+            (
+                #{$HEADER_HEIGHT} + #{$HEADER_TOP_BORDER} + #{$FOOTER_HEIGHT} + (2 *
+                            #{$CONTENT_VERTICAL_PADDING})
+            )
+    );
+    padding: $CONTENT_VERTICAL_PADDING $MARGIN_HORIZONTAL
+        $CONTENT_VERTICAL_PADDING $MARGIN_HORIZONTAL;
+    display: flex;
+    flex-direction: column;
+
+    /* Hide content that overflows and hide all scrollbars for all browsers */
+    overflow: scroll;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
