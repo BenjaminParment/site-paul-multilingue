@@ -1,10 +1,14 @@
 import Layout from "components/layout/Layout"
 import React from "react"
 
-const ProfilePage: React.FC = () => {
+interface Props {
+    data: any
+}
+
+const ProfilePage: React.FC<Props> = ({ data }) => {
     return (
         <Layout>
-            <span>Profile Page Hey</span>
+            <span>Ya Man</span>
         </Layout>
     )
 }
