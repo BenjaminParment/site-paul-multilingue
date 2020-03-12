@@ -8,5 +8,14 @@
     "footer": {
         "footer_1": "Stichting Mbote",
         "footer_2": "Kvk nummer 70864365"
+    },
+    "homepage": {
+        "picture_text": "De Text",
+        "program": {
+            "title": "Programma's",
+            "program_1": "Wie",
+            "program_2": "Wat",
+            "program_3": "Weet"
+        }
     }
 }
