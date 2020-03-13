@@ -1,4 +1,4 @@
-import "./index.scss"
+import "./page-style/index.scss"
 
 import { FormattedMessage } from "gatsby-plugin-intl"
 import { Image } from "components/images/Image"

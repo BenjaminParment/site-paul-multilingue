@@ -17,5 +17,9 @@
             "program_2": "Le ***",
             "program_3": "Les etoiles"
         }
+    },
+    "contact": {
+        "title": "Contacter nous",
+        "text": "Plein de text"
     }
 }
