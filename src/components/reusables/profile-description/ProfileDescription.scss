@@ -1,0 +1,34 @@
+@import "~shared/style/mixins";
+@import "~shared/style/colors";
+
+.profile-description-container {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .profile-name {
+        @include headerButton;
+        margin-bottom: 25px;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        width: 700px;
+        border: 2px solid $PRIMARY_COLOR;
+        align-items: center;
+
+        .profile-picture {
+            height: 150px;
+            width: 150px;
+            padding-right: 25px;
+        }
+
+        .profile-description {
+            width: 500px;
+        }
+    }
+}
