@@ -23,7 +23,7 @@ body {
         100vh -
             (
                 #{$HEADER_HEIGHT} + #{$HEADER_TOP_BORDER} + #{$FOOTER_HEIGHT} + (2 *
-                            #{$CONTENT_VERTICAL_PADDING})
+                            #{$CONTENT_VERTICAL_PADDING} + 1px)
             )
     );
     display: flex;
