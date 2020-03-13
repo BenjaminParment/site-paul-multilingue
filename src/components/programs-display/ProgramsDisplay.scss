@@ -1,0 +1,59 @@
+@import "~shared/style/mixins";
+@import "~shared/style/colors";
+
+$PROGRAM_CONTAINER_HEIGHT: 400px;
+$PROGRAM_TITLE_HEIGHT: 40px;
+$BORDER_WIDTH: 3px;
+
+.programs-parent-container {
+    margin-top: 25px;
+    height: $PROGRAM_CONTAINER_HEIGHT;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .programs-title {
+        @include headerButton;
+        height: $PROGRAM_TITLE_HEIGHT;
+        width: fit-content;
+        line-height: $PROGRAM_TITLE_HEIGHT;
+        border-width: $BORDER_WIDTH $BORDER_WIDTH 0px $BORDER_WIDTH;
+        border-style: solid;
+        border-color: $PRIMARY_COLOR;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .programs-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        .single-program {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 33.3%;
+
+            .single-program-title {
+                @include headerButton;
+                width: 100%;
+                border-width: $BORDER_WIDTH $BORDER_WIDTH 0px $BORDER_WIDTH;
+                border-style: solid;
+                border-color: $PRIMARY_COLOR;
+            }
+
+            .single-program-image {
+                width: 100%;
+                height: 300px;
+                border: $BORDER_WIDTH solid $PRIMARY_COLOR;
+
+                .image {
+                    padding: $BORDER_WIDTH;
+                    height: 300px - ($BORDER_WIDTH * 2);
+                    width: calc(100% - (2 * #{$BORDER_WIDTH}));
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}
