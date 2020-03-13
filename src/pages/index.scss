@@ -3,6 +3,9 @@
 
 .index-parent-container {
     .top-container {
+        display: flex;
+        flex-direction: column;
+
         .image-container {
             position: relative;
 
