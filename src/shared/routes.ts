@@ -1,4 +1,5 @@
 export const HOMEPAGE_PATH = "/"
-export const PROFILE_PATH = "/profile"
+export const BOARD_PATH = "/board"
+export const VOLUNTEERS_PATH = "/volunteers"
 export const ACTIVITIES_PATH = "/activities"
 export const CONTACT_PATH = "/contact"
