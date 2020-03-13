@@ -1,8 +1,9 @@
 import "./index.scss"
 
 import { FormattedMessage } from "gatsby-plugin-intl"
-import ImageSlider from "components/image-slider/ImageSlider"
+import { Image } from "components/images/Image"
 import Layout from "components/layout/Layout"
+import { ProgramsDisplay } from "components/programs-display/ProgramsDisplay"
 import React from "react"
 
 const IndexPage: React.FC = () => {
@@ -11,14 +12,15 @@ const IndexPage: React.FC = () => {
             <div className="index-parent-container">
                 <div className="top-container">
                     <div className="image-container">
-                        <ImageSlider />
+                        <Image className="image-size" />
                         <div className="text">
                             <FormattedMessage id="homepage.picture_text" />
                         </div>
                     </div>
-                    <span className="text-container" />
                 </div>
-                <div className="bottom-container"></div>
+                <div className="bottom-container">
+                    <ProgramsDisplay />
+                </div>
             </div>
         </Layout>
     )
