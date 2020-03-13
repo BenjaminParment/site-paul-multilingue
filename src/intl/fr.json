@@ -1,7 +1,11 @@
 {
     "title": "Bonjour",
     "header_buttons": {
-        "profile": "Profile",
+        "profile": {
+            "title": "Profile",
+            "board": "Board",
+            "voluntaries": "Volontaires"
+        },
         "activities": "Activite",
         "contact": "Contacte"
     },

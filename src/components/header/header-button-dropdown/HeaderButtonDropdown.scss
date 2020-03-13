@@ -1,0 +1,39 @@
+@import "~shared/style/mixins";
+@import "~shared/style/colors";
+@import "~shared/style/variables";
+
+.header-button-dropdown-container {
+    padding-left: 20px;
+
+    .header-button-dropdown {
+        @include headerButton;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        text-decoration: none;
+        color: $PRIMARY_TEXT_COLOR;
+    }
+
+    .dropdown-open {
+        padding: 10px;
+        height: 50px;
+        width: auto;
+        background-color: $LIGHTEST_FORGROUND_COLOR;
+        border: 1px solid $SECONDARY_TEXT_COLOR;
+        border-radius: 4px;
+        box-shadow: $BOX_SHADOW;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 1;
+
+        .single-option {
+            @include headerButton;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            color: $PRIMARY_TEXT_COLOR;
+        }
+    }
+}

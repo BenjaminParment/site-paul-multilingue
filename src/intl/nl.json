@@ -1,7 +1,11 @@
 {
     "title": "Hallo",
     "header_buttons": {
-        "profile": "Profil",
+        "profile": {
+            "title": "Profiel",
+            "board": "Board",
+            "voluntaries": "Volontairish"
+        },
         "activities": "Activiteiten",
         "contact": "Kontact"
     },
