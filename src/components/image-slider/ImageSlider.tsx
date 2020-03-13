@@ -20,7 +20,7 @@ const ImageSlider = () => {
                             id
                             name
                             childImageSharp {
-                                fluid(maxWidth: 1000) {
+                                fluid(maxWidth: 1600) {
                                     ...GatsbyImageSharpFluid
                                 }
                             }
@@ -30,7 +30,6 @@ const ImageSlider = () => {
             }
         `
     )
-    //Minus 1 for array offset from 0
 
     setInterval(() => {
         let newIndex = index
