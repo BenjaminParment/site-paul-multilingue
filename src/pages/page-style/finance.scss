@@ -1,0 +1,19 @@
+@import "~shared/style/mixins";
+
+$GRID_ROW_GAP: 58px;
+$GRID_COL_GAP: 52px;
+
+.financial-page-parent-container {
+    .finance-title {
+        @include headerButton;
+    }
+
+    .download-container {
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
+        justify-content: space-around;
+        grid-row-gap: $GRID_ROW_GAP;
+        grid-column-gap: $GRID_COL_GAP;
+    }
+}
