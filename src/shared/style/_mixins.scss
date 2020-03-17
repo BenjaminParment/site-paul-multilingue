@@ -2,18 +2,15 @@
 @import "fonts";
 
 @mixin pageTitle {
-    font-family: $REGULAR_FONT;
     font-size: $PAGE_TITLE_FONT_SIZE;
     font-weight: bold;
 }
 
 @mixin headerButton {
-    font-family: $REGULAR_FONT;
     font-weight: bold;
     font-size: $HEADING_FONT_SIZE;
 }
 
 @mixin generalFont {
-    font-family: $REGULAR_FONT;
     font-size: $GENERAL_FONT_SIZE;
 }

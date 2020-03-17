@@ -4,15 +4,17 @@ $GRID_ROW_GAP: 58px;
 $GRID_COL_GAP: 52px;
 
 .financial-page-parent-container {
+    display: flex;
+    flex-direction: column;
     .finance-title {
         @include headerButton;
+        margin-bottom: 25px;
     }
 
     .download-container {
-        padding-top: 50px;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
-        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        min-height: 600px;
         grid-row-gap: $GRID_ROW_GAP;
         grid-column-gap: $GRID_COL_GAP;
     }

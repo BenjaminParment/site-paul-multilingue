@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
 @import "~shared/style/variables";
 
 $CONTENT_VERTICAL_PADDING: 25px;
 
 html {
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }

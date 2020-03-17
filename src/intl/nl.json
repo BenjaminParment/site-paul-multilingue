@@ -23,6 +23,9 @@
             "program_3": "Weet"
         }
     },
+    "finance": {
+        "download_action": "Download the year: "
+    },
     "board": {
         "title": "Bestuur",
         "description": "De taakstelling van de bestuursleden is als volgt. Een voorzitter, een secretaris en een penningmeester. De taak van de voorzitter zijn het voorzitten van bestuursvergaderingen en de portfolio algemene gang van zaken. De secretaris heeft als taak het bijhouden van de administratie van de stichting. De penningmeester heeft als taak het controleren en bijhouden van de boekhouding van de stichting en het opstellen van financiële prognoses. Daarnaast zullen alle bestuursleden zich inzetten om de activiteiten van de stichting uit te breiden. De bestuursleden krijgen geen vergoeding voor de verrichte taken in het kader van de stichting.",
@@ -42,5 +45,8 @@
     "contact": {
         "title": "Kontact in mijn piemel",
         "text": "Heel veel schaat"
+    },
+    "button": {
+        "download": "Download"
     }
 }
