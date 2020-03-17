@@ -11,7 +11,7 @@
         background-color: transparent;
         cursor: pointer;
         text-decoration: none;
-        color: $PRIMARY_TEXT_COLOR;
+        color: $SECONDARY_TEXT_COLOR;
     }
 
     .dropdown-open {
@@ -33,7 +33,7 @@
             font-size: 18px;
             cursor: pointer;
             text-decoration: none;
-            color: $PRIMARY_TEXT_COLOR;
+            color: $SECONDARY_TEXT_COLOR;
         }
     }
 }

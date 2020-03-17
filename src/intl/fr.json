@@ -23,6 +23,9 @@
             "program_3": "Les etoiles"
         }
     },
+    "finance": {
+        "download_action": "Telechargez la finance de l'annee: "
+    },
     "board": {
         "title": "Directoir",
         "description": "Page des profiles du board",
@@ -42,5 +45,8 @@
     "contact": {
         "title": "Contacter nous",
         "text": "Plein de text"
+    },
+    "button": {
+        "download": "Telecharger"
     }
 }

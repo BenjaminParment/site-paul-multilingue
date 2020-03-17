@@ -1,5 +1,6 @@
-@import "~src/shared/style/colors";
-@import "~src/shared/style/mixins";
+@import "~shared/style/colors";
+@import "~shared/style/mixins";
+@import "~shared/style/variables";
 
 $TEXT_CONTAINER_MAX_WIDTH: 200px;
 $TEXT_CONTAINER_PADDING: 10px;
@@ -27,7 +28,7 @@ $TEXT_CONTAINER_PADDING: 10px;
                 max-width: $TEXT_CONTAINER_MAX_WIDTH;
                 padding: $TEXT_CONTAINER_PADDING;
                 background-color: $LIGHTEST_FORGROUND_COLOR;
-                border: 3px solid $PRIMARY_COLOR;
+                border: $MAIN_BORDER_WIDTH solid $PRIMARY_COLOR;
                 border-radius: 2px;
             }
         }
