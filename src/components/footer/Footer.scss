@@ -8,17 +8,24 @@ $PADDING_TEXT_VERT: 10px;
     background-color: $PRIMARY_COLOR;
     width: 100%;
     height: $FOOTER_HEIGHT;
-    display: flex;
 
     .footer-info {
-        padding: $PADDING_TEXT_VERT 0px $PADDING_TEXT_VERT $MARGIN_HORIZONTAL;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
+        text-align: center;
+        height: $FOOTER_HEIGHT;
 
-        .single-info {
-            color: $LIGHTEST_FORGROUND_COLOR;
+        .column {
+            height: $FOOTER_HEIGHT;
+            line-height: $FOOTER_HEIGHT;
             @include generalFont;
+            width: calc(100% / 3);
+            border-right: 1px solid $MID_FORGROUND_COLOR;
+
+            &:last-child {
+                border: none;
+            }
         }
     }
 }
