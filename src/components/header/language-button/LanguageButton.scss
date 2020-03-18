@@ -1,11 +1,14 @@
-@import "~src/shared/style/mixins";
-@import "~src/shared/style/variables";
+@import "~shared/style/mixins";
+@import "~shared/style/variables";
+@import "~shared/style/colors";
 
 .language-button-container {
     margin-right: $MARGIN_HORIZONTAL;
+    background-color: $PRIMARY_COLOR;
+    border-radius: 4px;
 
     .language-button {
-        @include generalFont;
+        @include headerButton;
         border: none;
         cursor: pointer;
         background-color: transparent;
