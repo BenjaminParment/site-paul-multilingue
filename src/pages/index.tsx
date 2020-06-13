@@ -1,7 +1,7 @@
 import "./page-style/index.scss"
 
 import { FormattedMessage } from "gatsby-plugin-intl"
-import { Image } from "components/images/Image"
+import { HomepageImage } from "components/images/homepage/HomepageImage"
 import Layout from "components/layout/Layout"
 import { ProgramsDisplay } from "components/programs-display/ProgramsDisplay"
 import React from "react"
@@ -12,7 +12,7 @@ const IndexPage: React.FC = () => {
             <div className="index-parent-container">
                 <div className="top-container">
                     <div className="image-container">
-                        <Image className="image-size" />
+                        <HomepageImage className="image-size" />
                         <div className="text">
                             <FormattedMessage id="homepage.picture_text" />
                         </div>

@@ -21,7 +21,7 @@ $PADDING_TEXT_VERT: 10px;
             line-height: $FOOTER_HEIGHT;
             @include generalFont;
             width: calc(100% / 3);
-            border-right: 1px solid $MID_FORGROUND_COLOR;
+            border-right: 1px solid $SECONDARY_TEXT_COLOR;
 
             &:last-child {
                 border: none;

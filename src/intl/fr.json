@@ -6,22 +6,23 @@
             "board": "Board",
             "voluntaries": "Volontaires"
         },
-        "activities": "Activite",
+        "programs": "Programmes",
         "finance": "Finance",
         "contact": "Contacte",
         "donations": "Donations"
     },
     "footer": {
-        "footer_1": "Fondation Mbote",
-        "footer_2": "Kvk numero 70864365"
+        "left": "Sur Stichting Mbote",
+        "middle": "Information Juridique",
+        "right": "Contact"
     },
     "homepage": {
         "picture_text": "Le texte est en francais hjkshdjkhdsfkjhsdkjfh sjdhf jsdh fjksdh fjksdh fjks dhfjks dhfjks df",
         "program": {
             "title": "Programme",
-            "program_1": "La vie",
-            "program_2": "Le ***",
-            "program_3": "Les etoiles"
+            "program_1": "Education RDC 2025",
+            "program_2": "VIE",
+            "program_3": "BOPETO"
         }
     },
     "finance": {
@@ -32,15 +33,31 @@
         "description": "Page des profiles du board",
         "paul": {
             "name": "Paul Deza de Massiac",
-            "description": "Paul Deza de Massiac est une pute"
+            "description": "Paul Deza de Massiac"
         },
         "ward": {
             "name": "Ward Nusselder",
-            "description": "Ward Nusselder est un gros nibard"
+            "description": "Ward Nusselder"
         },
         "luc": {
             "name": "Luc Stultiens",
-            "description": "Luc Stultiens aime le saucisson"
+            "description": "Luc Stultiens"
+        }
+    },
+    "volunteers": {
+        "title": "Bestuur",
+        "description": "Onze organisatie bestaat geheel uit vrijwilligers. Dankzij al deze vrijwilligers kunnen we ervoor zorgen dat er zo veel mogelijk van de beschikbare middelen direct bij de weeskinderen komen en zo een maximale impact hebben.",
+        "profile_1": {
+            "name": "Béni Bobanga",
+            "description": "Béni Bobanga is de lokale grondlegger van de stichting en zet zich lang voor het begin van de activiteiten van de stichting in 2017 al in voor weeskinderen in de regio van Kinshasa."
+        },
+        "profile_2": {
+            "name": "Rebecca Mputu",
+            "description": "Rebecca Mputu is de lokale coördinator van de stichting en zorgt ervoor dat de vrijwilligers ter plekke zo goed mogelijk kunnen bijdragen aan het welzijn van de weeskinderen."
+        },
+        "profile_3": {
+            "name": "Benjamin Parment",
+            "description": "Benjamin Parment is de websiteontwikkelaar van de stichting, en is ook trouwens een klein poesje"
         }
     },
     "contact": {

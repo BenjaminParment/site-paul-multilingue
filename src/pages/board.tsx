@@ -16,18 +16,25 @@ const BoardPage: React.FC = () => {
                     <span className="board-title">
                         <FormattedMessage id="board.title" />
                     </span>
-                    <ProfileDescription
-                        id="board.paul"
-                        image={<PaulProfileImage />}
-                    />
-                    <ProfileDescription
-                        id="board.ward"
-                        image={<WardProfileImage />}
-                    />
-                    <ProfileDescription
-                        id="board.luc"
-                        image={<LucProfileImage />}
-                    />
+                    <div className="profile">
+                        <ProfileDescription
+                            id="board.paul"
+                            image={<PaulProfileImage />}
+                        />
+                    </div>
+
+                    <div className="profile">
+                        <ProfileDescription
+                            id="board.ward"
+                            image={<WardProfileImage />}
+                        />
+                    </div>
+                    <div className="profile">
+                        <ProfileDescription
+                            id="board.luc"
+                            image={<LucProfileImage />}
+                        />
+                    </div>
                 </div>
                 <div className="right-container">
                     <FormattedMessage id="board.description" />

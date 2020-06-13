@@ -1,8 +1,10 @@
 import "./ProgramsDisplay.scss"
 
+import { BOPETOProgram } from "components/images/programs/BOPETOProgram"
+import { EducationRDCProgram } from "components/images/programs/EducationRDC"
 import { FormattedMessage } from "gatsby-plugin-intl"
-import { QuestionMarkImage } from "components/images/QuestionMarkImage"
 import React from "react"
+import { VieProgram } from "components/images/programs/Vie"
 
 export const ProgramsDisplay: React.FC = () => {
     return (
@@ -16,7 +18,7 @@ export const ProgramsDisplay: React.FC = () => {
                         <FormattedMessage id="homepage.program.program_1" />
                     </span>
                     <div className="single-program-image">
-                        <QuestionMarkImage className="image" />
+                        <EducationRDCProgram className="image" />
                     </div>
                 </div>
                 <div className="single-program">
@@ -24,7 +26,7 @@ export const ProgramsDisplay: React.FC = () => {
                         <FormattedMessage id="homepage.program.program_2" />
                     </span>
                     <div className="single-program-image">
-                        <QuestionMarkImage className="image" />
+                        <VieProgram className="image" />
                     </div>
                 </div>
                 <div className="single-program">
@@ -32,7 +34,7 @@ export const ProgramsDisplay: React.FC = () => {
                         <FormattedMessage id="homepage.program.program_3" />
                     </span>
                     <div className="single-program-image">
-                        <QuestionMarkImage className="image" />
+                        <BOPETOProgram className="image" />
                     </div>
                 </div>
             </div>

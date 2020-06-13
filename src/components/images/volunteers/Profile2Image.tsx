@@ -4,10 +4,10 @@ import { ImageProps } from "../ImageProps"
 import Img from "gatsby-image"
 import React from "react"
 
-export const EducationRDCProgram: React.FC<ImageProps> = ({ className }) => {
+export const Profile2Image: React.FC<ImageProps> = ({ className }) => {
     const data = useStaticQuery(graphql`
         query {
-            placeholderImage: file(relativePath: { eq: "image2.png" }) {
+            placeholderImage: file(relativePath: { eq: "image14.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 1920, maxHeight: 1920) {
                         ...GatsbyImageSharpFluid

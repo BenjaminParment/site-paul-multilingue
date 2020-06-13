@@ -4,12 +4,12 @@ import { ImageProps } from "../ImageProps"
 import Img from "gatsby-image"
 import React from "react"
 
-export const LucProfileImage: React.FC<ImageProps> = ({ className }) => {
+export const HomepageImage: React.FC<ImageProps> = ({ className }) => {
     const data = useStaticQuery(graphql`
         query {
-            placeholderImage: file(relativePath: { eq: "image18.png" }) {
+            placeholderImage: file(relativePath: { eq: "image.png" }) {
                 childImageSharp {
-                    fluid(maxWidth: 1920, maxHeight: 1920) {
+                    fluid(maxWidth: 1920, maxHeight: 1080) {
                         ...GatsbyImageSharpFluid
                     }
                 }

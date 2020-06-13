@@ -4,16 +4,17 @@
         "profile": {
             "title": "Profiel",
             "board": "Board",
-            "voluntaries": "Volontairish"
+            "voluntaries": "Vrijwilligers"
         },
-        "activities": "Activiteiten",
+        "programs": "Programas",
         "finance": "Financeijn",
         "contact": "Kontact",
         "donations": "Donations"
     },
     "footer": {
-        "footer_1": "Stichting Mbote",
-        "footer_2": "Kvk nummer 70864365"
+        "left": "Over Stichting Mbote",
+        "middle": "Juridische informatie",
+        "right": "Kontakt"
     },
     "homepage": {
         "picture_text": "WELKOM BIJ STICHTING MBOTÉ",
@@ -41,6 +42,22 @@
         "luc": {
             "name": "Luc Stultiens",
             "description": "Luc Stultiens is werkzaam als financieel beleidsmedewerker bij de Tweede Kamerfractie van GroenLinks. Daarvoor was Luc Stultiens Financial Trainee bij het Ministerie van Financiën. Luc Stultiens heeft daarnaast al ervaring als penningmeester kunnen opdoen door zijn penningmeesterschap van het bestuur van de UCSA studievereniging, een studievereniging met een budget op jaarbasis van meer dan EUR 300.000,00."
+        }
+    },
+    "volunteers": {
+        "title": "Bestuur",
+        "description": "Onze organisatie bestaat geheel uit vrijwilligers. Dankzij al deze vrijwilligers kunnen we ervoor zorgen dat er zo veel mogelijk van de beschikbare middelen direct bij de weeskinderen komen en zo een maximale impact hebben.",
+        "profile_1": {
+            "name": "Béni Bobanga",
+            "description": "Béni Bobanga is de lokale grondlegger van de stichting en zet zich lang voor het begin van de activiteiten van de stichting in 2017 al in voor weeskinderen in de regio van Kinshasa."
+        },
+        "profile_2": {
+            "name": "Rebecca Mputu",
+            "description": "Rebecca Mputu is de lokale coördinator van de stichting en zorgt ervoor dat de vrijwilligers ter plekke zo goed mogelijk kunnen bijdragen aan het welzijn van de weeskinderen."
+        },
+        "profile_3": {
+            "name": "Benjamin Parment",
+            "description": "Benjamin Parment is de websiteontwikkelaar van de stichting, en is ook trouwens een klein poesje"
         }
     },
     "contact": {
