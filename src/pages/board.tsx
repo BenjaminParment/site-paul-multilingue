@@ -2,9 +2,11 @@ import "./page-style/board.scss"
 
 import { FormattedMessage } from "gatsby-plugin-intl"
 import Layout from "components/layout/Layout"
+import { LucProfileImage } from "components/images/board/Luc"
+import { PaulProfileImage } from "components/images/board/Paul"
 import { ProfileDescription } from "components/reusables/profile-description/ProfileDescription"
-import { QuestionMarkImage } from "components/images/QuestionMarkImage"
 import React from "react"
+import { WardProfileImage } from "components/images/board/Ward"
 
 const BoardPage: React.FC = () => {
     return (
@@ -14,18 +16,25 @@ const BoardPage: React.FC = () => {
                     <span className="board-title">
                         <FormattedMessage id="board.title" />
                     </span>
-                    <ProfileDescription
-                        id="board.paul"
-                        image={<QuestionMarkImage />}
-                    />
-                    <ProfileDescription
-                        id="board.ward"
-                        image={<QuestionMarkImage />}
-                    />
-                    <ProfileDescription
-                        id="board.luc"
-                        image={<QuestionMarkImage />}
-                    />
+                    <div className="profile">
+                        <ProfileDescription
+                            id="board.paul"
+                            image={<PaulProfileImage />}
+                        />
+                    </div>
+
+                    <div className="profile">
+                        <ProfileDescription
+                            id="board.ward"
+                            image={<WardProfileImage />}
+                        />
+                    </div>
+                    <div className="profile">
+                        <ProfileDescription
+                            id="board.luc"
+                            image={<LucProfileImage />}
+                        />
+                    </div>
                 </div>
                 <div className="right-container">
                     <FormattedMessage id="board.description" />

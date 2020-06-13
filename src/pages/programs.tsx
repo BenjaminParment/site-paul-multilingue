@@ -1,11 +1,11 @@
-import "./page-style/activities.scss"
+import "./page-style/programs.scss"
 
 import Layout from "components/layout/Layout"
 import { QuestionMarkImage } from "components/images/QuestionMarkImage"
 import React from "react"
 import { TextDisplay } from "components/reusables/text-display/TextDisplay"
 
-const ActivitiesPage: React.FC = () => {
+const ProgramsPage: React.FC = () => {
     return (
         <Layout>
             <TextDisplay
@@ -18,4 +18,4 @@ const ActivitiesPage: React.FC = () => {
     )
 }
 
-export default ActivitiesPage
+export default ProgramsPage

@@ -1,11 +1,11 @@
 import "./Header.scss"
 
 import {
-    ACTIVITIES_PATH,
     CONTACT_PATH,
     DONATIONS_PATH,
     FINANCE_PATH,
     HOMEPAGE_PATH,
+    PROGRAMS_PATH,
 } from "shared/routes"
 import { IntlShape, Link, injectIntl } from "gatsby-plugin-intl"
 
@@ -29,8 +29,8 @@ const Header: React.FC<HeaderProps> = ({ intl }) => {
                 <span className="header-buttons">
                     <HeaderButtonDropdown />
                     <HeaderButton
-                        id="header_buttons.activities"
-                        pageUrl={ACTIVITIES_PATH}
+                        id="header_buttons.programs"
+                        pageUrl={PROGRAMS_PATH}
                     />
                     <HeaderButton
                         id="header_buttons.finance"
