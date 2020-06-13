@@ -2,9 +2,11 @@ import "./page-style/board.scss"
 
 import { FormattedMessage } from "gatsby-plugin-intl"
 import Layout from "components/layout/Layout"
+import { LucProfileImage } from "components/images/board/Luc"
+import { PaulProfileImage } from "components/images/board/Paul"
 import { ProfileDescription } from "components/reusables/profile-description/ProfileDescription"
-import { QuestionMarkImage } from "components/images/QuestionMarkImage"
 import React from "react"
+import { WardProfileImage } from "components/images/board/Ward"
 
 const BoardPage: React.FC = () => {
     return (
@@ -16,15 +18,15 @@ const BoardPage: React.FC = () => {
                     </span>
                     <ProfileDescription
                         id="board.paul"
-                        image={<QuestionMarkImage />}
+                        image={<PaulProfileImage />}
                     />
                     <ProfileDescription
                         id="board.ward"
-                        image={<QuestionMarkImage />}
+                        image={<WardProfileImage />}
                     />
                     <ProfileDescription
                         id="board.luc"
-                        image={<QuestionMarkImage />}
+                        image={<LucProfileImage />}
                     />
                 </div>
                 <div className="right-container">
