@@ -3,6 +3,7 @@ import "./Header.scss"
 import {
     ACTIVITIES_PATH,
     CONTACT_PATH,
+    DONATIONS_PATH,
     FINANCE_PATH,
     HOMEPAGE_PATH,
 } from "shared/routes"
@@ -34,6 +35,10 @@ const Header: React.FC<HeaderProps> = ({ intl }) => {
                     <HeaderButton
                         id="header_buttons.finance"
                         pageUrl={FINANCE_PATH}
+                    />
+                    <HeaderButton
+                        id="header_buttons.donations"
+                        pageUrl={DONATIONS_PATH}
                     />
                     <HeaderButton
                         id="header_buttons.contact"
