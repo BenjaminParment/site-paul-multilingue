@@ -1,5 +1,5 @@
 {
-    "title": "Bonjour",
+    "title": "STICHTING MBOTÉ",
     "header_buttons": {
         "profile": {
             "title": "Profile",
@@ -8,7 +8,8 @@
         },
         "activities": "Activite",
         "finance": "Finance",
-        "contact": "Contacte"
+        "contact": "Contacte",
+        "donations": "Donations"
     },
     "footer": {
         "footer_1": "Fondation Mbote",

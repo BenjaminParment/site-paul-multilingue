@@ -1,5 +1,5 @@
 {
-    "title": "Hallo",
+    "title": "STICHTING MBOTÉ",
     "header_buttons": {
         "profile": {
             "title": "Profiel",
@@ -8,19 +8,20 @@
         },
         "activities": "Activiteiten",
         "finance": "Financeijn",
-        "contact": "Kontact"
+        "contact": "Kontact",
+        "donations": "Donations"
     },
     "footer": {
         "footer_1": "Stichting Mbote",
         "footer_2": "Kvk nummer 70864365"
     },
     "homepage": {
-        "picture_text": "De Text",
+        "picture_text": "WELKOM BIJ STICHTING MBOTÉ",
         "program": {
             "title": "Programma's",
-            "program_1": "Wie",
-            "program_2": "Wat",
-            "program_3": "Weet"
+            "program_1": "Education RDC 2025",
+            "program_2": "VIE",
+            "program_3": "BOPETO"
         }
     },
     "finance": {

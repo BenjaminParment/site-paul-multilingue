@@ -1,0 +1,31 @@
+@import "~shared/style/mixins.scss";
+
+.donation-page-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .donation-title {
+        height: 40px;
+        border: 1px solid red;
+        margin-bottom: 25px;
+    }
+
+    .bottom-container {
+        position: relative;
+
+        .left-container {
+            position: absolute;
+            left: 0;
+            border: 1px solid blue;
+        }
+
+        .right-container {
+            position: absolute;
+            right: 0;
+            border: 1px solid purple;
+        }
+    }
+    
+}
