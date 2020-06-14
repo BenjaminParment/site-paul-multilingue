@@ -12,7 +12,10 @@ $HEADER_BUTTONS_PADDING_TOP: 10px;
     justify-content: space-between;
     align-items: center;
     border-top: $HEADER_TOP_BORDER solid $PRIMARY_COLOR;
-    border-bottom: 1px solid $LIGHT_FORGROUND_COLOR;
+    border-bottom: 1px solid $MID_FORGROUND_COLOR;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
 
     .left-container {
         margin-left: $MARGIN_HORIZONTAL;

@@ -14,7 +14,8 @@ $TEXT_CONTAINER_PADDING: 10px;
             position: relative;
             height: 650px;
 
-            .image-size {
+            .image {
+                border: 1px solid $PRIMARY_COLOR;
                 max-height: 600px;
                 width: 100%;
             }

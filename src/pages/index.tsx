@@ -12,7 +12,7 @@ const IndexPage: React.FC = () => {
             <div className="index-parent-container">
                 <div className="top-container">
                     <div className="image-container">
-                        <HomepageImage className="image-size" />
+                        <HomepageImage className="image" />
                         <div className="text">
                             <FormattedMessage id="homepage.picture_text" />
                         </div>

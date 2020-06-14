@@ -7,6 +7,10 @@ import React from "react"
 import { VieProgram } from "components/images/programs/Vie"
 
 export const ProgramsDisplay: React.FC = () => {
+    const onClick = (url: string) => {
+        //Get me to the page with the correct tab open
+    }
+
     return (
         <div className="programs-parent-container">
             <span className="programs-title">
@@ -14,25 +18,31 @@ export const ProgramsDisplay: React.FC = () => {
             </span>
             <div className="programs-container">
                 <div className="single-program">
-                    <span className="single-program-title">
-                        <FormattedMessage id="homepage.program.program_1" />
-                    </span>
+                    <div className="single-program-title">
+                        <span className="title">
+                            <FormattedMessage id="homepage.program.program_1" />
+                        </span>
+                    </div>
                     <div className="single-program-image">
                         <EducationRDCProgram className="image" />
                     </div>
                 </div>
                 <div className="single-program">
-                    <span className="single-program-title">
-                        <FormattedMessage id="homepage.program.program_2" />
-                    </span>
+                    <div className="single-program-title">
+                        <span className="title">
+                            <FormattedMessage id="homepage.program.program_2" />
+                        </span>
+                    </div>
                     <div className="single-program-image">
                         <VieProgram className="image" />
                     </div>
                 </div>
                 <div className="single-program">
-                    <span className="single-program-title">
-                        <FormattedMessage id="homepage.program.program_3" />
-                    </span>
+                    <div className="single-program-title">
+                        <span className="title">
+                            <FormattedMessage id="homepage.program.program_3" />
+                        </span>
+                    </div>
                     <div className="single-program-image">
                         <BOPETOProgram className="image" />
                     </div>
