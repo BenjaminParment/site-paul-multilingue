@@ -1,0 +1,29 @@
+.single-program-parent-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .top-container {
+        display: flex;
+        height: 30%;
+        width: 100%;
+    }
+
+    .bottom-container {
+        height: 70%;
+
+        .description {
+            width: 40%;
+        }
+
+        .video {
+            width: 60%;
+        }
+    }
+
+    .image {
+        height: 250px;
+    }
+}

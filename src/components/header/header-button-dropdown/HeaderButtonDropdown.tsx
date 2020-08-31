@@ -39,16 +39,16 @@ export const HeaderButtonDropdown: React.FC = () => {
             {isOpen && (
                 <div className="dropdown-open" ref={wrapperRef}>
                     <span>
-                        <Link to={BOARD_PATH} className="single-option">
+                        <Link to={VOLUNTEERS_PATH} className="single-option">
                             <FormattedMessage
-                                id={"header_buttons.profile.board"}
+                                id={"header_buttons.profile.voluntaries"}
                             />
                         </Link>
                     </span>
                     <span>
-                        <Link to={VOLUNTEERS_PATH} className="single-option">
+                        <Link to={BOARD_PATH} className="single-option">
                             <FormattedMessage
-                                id={"header_buttons.profile.voluntaries"}
+                                id={"header_buttons.profile.board"}
                             />
                         </Link>
                     </span>

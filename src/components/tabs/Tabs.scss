@@ -1,0 +1,19 @@
+@import "~shared/style/fonts";
+@import "~shared/style/colors";
+
+.tabs-parent-container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+
+    .tab {
+        width: 33%;
+        border: none;
+        color: $SECONDARY_TEXT_COLOR;
+        font-size: $HEADING_FONT_SIZE;
+        background-color: $LIGHT_FORGROUND_COLOR;
+        &.open {
+            background-color: $MID_FORGROUND_COLOR;
+        }
+    }
+}

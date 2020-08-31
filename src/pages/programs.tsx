@@ -1,19 +1,19 @@
 import "./page-style/programs.scss"
 
 import Layout from "components/layout/Layout"
-import { QuestionMarkImage } from "components/images/QuestionMarkImage"
 import React from "react"
-import { TextDisplay } from "components/reusables/text-display/TextDisplay"
+import { Tabs } from "components/tabs/Tabs"
+
+export const PROGRAMS_TABS = ["Education RDC 2025", "VIE", "BOPETO"]
 
 const ProgramsPage: React.FC = () => {
     return (
         <Layout>
-            <TextDisplay
-                image={<QuestionMarkImage />}
-                imageStyle="image-dimension"
-            >
-                <span>Display this text please</span>
-            </TextDisplay>
+            <div className="programs-parent-container">
+                <div className="tabs">
+                    <Tabs tabs={PROGRAMS_TABS} />
+                </div>
+            </div>
         </Layout>
     )
 }
