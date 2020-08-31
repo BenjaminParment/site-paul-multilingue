@@ -19,13 +19,25 @@
             position: absolute;
             left: 0;
             border: 1px solid blue;
+            height: 600px;
+            width: 45vw;
         }
 
         .right-container {
             position: absolute;
             right: 0;
-            border: 1px solid purple;
+            height: 600px;
+            width: 45vw;
+
+            .video-title {
+                height: 100px;
+                border: 1px solid blue;
+            }
+
+            .video {
+                height: 300px;
+                border: 1px solid blue;
+            }
         }
     }
-    
 }

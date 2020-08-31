@@ -3,7 +3,7 @@
     "header_buttons": {
         "profile": {
             "title": "Profiel",
-            "board": "Board",
+            "board": "Bestuur",
             "voluntaries": "Vrijwilligers"
         },
         "programs": "Programas",
@@ -45,7 +45,7 @@
         }
     },
     "volunteers": {
-        "title": "Bestuur",
+        "title": "Vrijwilligers",
         "description": "Onze organisatie bestaat geheel uit vrijwilligers. Dankzij al deze vrijwilligers kunnen we ervoor zorgen dat er zo veel mogelijk van de beschikbare middelen direct bij de weeskinderen komen en zo een maximale impact hebben.",
         "profile_1": {
             "name": "Béni Bobanga",
@@ -66,5 +66,19 @@
     },
     "button": {
         "download": "Download"
+    },
+    "donations": {
+        "title": "Warom donneren"
+    },
+    "programs": {
+        "education": {
+            "description": "blah blah"
+        },
+        "vie": {
+            "description": "blah blah"
+        },
+        "bopeto": {
+            "description": "blah blah"
+        }
     }
 }

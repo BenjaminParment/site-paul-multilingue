@@ -7,8 +7,9 @@ import React from "react"
 import { VieProgram } from "components/images/programs/Vie"
 
 export const ProgramsDisplay: React.FC = () => {
-    const onClick = (url: string) => {
+    const onClick = (programId: string) => {
         //Get me to the page with the correct tab open
+        console.log("this ", programId)
     }
 
     return (

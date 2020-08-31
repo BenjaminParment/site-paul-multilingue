@@ -3,7 +3,7 @@
     "header_buttons": {
         "profile": {
             "title": "Profile",
-            "board": "Board",
+            "board": "Conseil d'administration",
             "voluntaries": "Volontaires"
         },
         "programs": "Programmes",
@@ -29,7 +29,7 @@
         "download_action": "Telechargez la finance de l'annee: "
     },
     "board": {
-        "title": "Directoir",
+        "title": "Conseil d'administration",
         "description": "Page des profiles du board",
         "paul": {
             "name": "Paul Deza de Massiac",
@@ -45,7 +45,7 @@
         }
     },
     "volunteers": {
-        "title": "Bestuur",
+        "title": "Benevole",
         "description": "Onze organisatie bestaat geheel uit vrijwilligers. Dankzij al deze vrijwilligers kunnen we ervoor zorgen dat er zo veel mogelijk van de beschikbare middelen direct bij de weeskinderen komen en zo een maximale impact hebben.",
         "profile_1": {
             "name": "Béni Bobanga",
@@ -66,5 +66,19 @@
     },
     "button": {
         "download": "Telecharger"
+    },
+    "donations": {
+        "title": "Pourquoi faire une donation"
+    },
+    "programs": {
+        "education": {
+            "description": "blah blah"
+        },
+        "vie": {
+            "description": "blih blih"
+        },
+        "bopeto": {
+            "description": "bloh bloph"
+        }
     }
 }
