@@ -15,7 +15,11 @@ export const Tabs: React.FC<TabsProps> = ({ tabs }) => {
         <>
             <div className="tabs-parent-container">
                 {tabs.map(tab => (
-                    <button key="tab" onClick={() => toggleOpen(tab)} className={`tab ${openedTab === tab && "open"}`}>
+                    <button
+                        key={tabs.indexOf(tab)}
+                        onClick={() => toggleOpen(tab)}
+                        className={`tab ${openedTab === tab && "open"}`}
+                    >
                         {tab}
                     </button>
                 ))}
