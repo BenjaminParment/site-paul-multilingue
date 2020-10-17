@@ -1,18 +1,15 @@
-import "./FinanceDisplay.scss"
+import "./FinanceDisplay.scss";
 
-import { DownloadButton } from "../download-button/DownloadButton"
-import { FormattedMessage } from "gatsby-plugin-intl"
-import React from "react"
+import { DownloadButton } from "../download-button/DownloadButton";
+import { FormattedMessage } from "gatsby-plugin-intl";
+import React from "react";
 
 interface FinanceDisplayProps {
-    year: number
-    onClick: () => void
+    year: number;
+    onClick: () => void;
 }
 
-export const FinanceDisplay: React.FC<FinanceDisplayProps> = ({
-    year,
-    onClick,
-}) => {
+export const FinanceDisplay: React.FC<FinanceDisplayProps> = ({ year, onClick }) => {
     return (
         <div className="finance-display-container">
             <span className="button-label">
@@ -23,5 +20,5 @@ export const FinanceDisplay: React.FC<FinanceDisplayProps> = ({
                 <FormattedMessage id={"button.download"} />
             </DownloadButton>
         </div>
-    )
-}
+    );
+};

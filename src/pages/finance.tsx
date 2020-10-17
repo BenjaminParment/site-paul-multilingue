@@ -1,11 +1,11 @@
-import "./page-style/finance.scss"
+import "./page-style/finance.scss";
 
-import { FinanceDisplay } from "components/reusables/finance-display/FinanceDisplay"
-import Layout from "components/layout/Layout"
-import React from "react"
+import { FinanceDisplay } from "components/reusables/finance-display/FinanceDisplay";
+import Layout from "components/layout/Layout";
+import React from "react";
 
 const FinancePage: React.FC = () => {
-    const onClick = () => {}
+    const onClick = () => {};
 
     return (
         <Layout>
@@ -18,7 +18,7 @@ const FinancePage: React.FC = () => {
                 </div>
             </div>
         </Layout>
-    )
-}
+    );
+};
 
-export default FinancePage
+export default FinancePage;

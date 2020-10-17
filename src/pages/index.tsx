@@ -1,10 +1,10 @@
-import "./page-style/index.scss"
+import "./page-style/index.scss";
 
-import { FormattedMessage } from "gatsby-plugin-intl"
-import { HomepageImage } from "components/images/homepage/HomepageImage"
-import Layout from "components/layout/Layout"
-import { ProgramsDisplay } from "components/programs-display/ProgramsDisplay"
-import React from "react"
+import { FormattedMessage } from "gatsby-plugin-intl";
+import { HomepageImage } from "components/images/homepage/HomepageImage";
+import Layout from "components/layout/Layout";
+import { ProgramsDisplay } from "components/programs-display/ProgramsDisplay";
+import React from "react";
 
 const IndexPage: React.FC = () => {
     return (
@@ -23,7 +23,7 @@ const IndexPage: React.FC = () => {
                 </div>
             </div>
         </Layout>
-    )
-}
+    );
+};
 
-export default IndexPage
+export default IndexPage;

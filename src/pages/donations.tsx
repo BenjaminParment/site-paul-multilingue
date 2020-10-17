@@ -1,8 +1,8 @@
-import "./page-style/donations.scss"
+import "./page-style/donations.scss";
 
-import { FormattedMessage } from "gatsby-plugin-intl"
-import Layout from "components/layout/Layout"
-import React from "react"
+import { FormattedMessage } from "gatsby-plugin-intl";
+import Layout from "components/layout/Layout";
+import React from "react";
 
 const DonationsPage: React.FC = () => {
     return (
@@ -22,7 +22,7 @@ const DonationsPage: React.FC = () => {
                 </div>
             </div>
         </Layout>
-    )
-}
+    );
+};
 
-export default DonationsPage
+export default DonationsPage;

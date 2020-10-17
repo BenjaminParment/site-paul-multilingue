@@ -4,20 +4,21 @@
 .profile-description-container {
     height: 250px;
     width: 100%;
-    margin-bottom: 10px;
+    margin: 10px 0;
     display: flex;
     flex-direction: column;
 
     .profile-name {
         @include headerButton;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
     .bottom-container {
         display: flex;
         flex-direction: row;
         height: 200px;
-        width: 700px;
+        max-width: 700px;
+        min-width: 500px;
         border: 2px solid $PRIMARY_COLOR;
         align-items: center;
 

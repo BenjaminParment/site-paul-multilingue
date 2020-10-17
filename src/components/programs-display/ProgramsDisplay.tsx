@@ -1,16 +1,16 @@
-import "./ProgramsDisplay.scss"
+import "./ProgramsDisplay.scss";
 
-import { BOPETOProgram } from "components/images/programs/BOPETOProgram"
-import { EducationRDCProgram } from "components/images/programs/EducationRDC"
-import { FormattedMessage } from "gatsby-plugin-intl"
-import React from "react"
-import { VieProgram } from "components/images/programs/Vie"
+import { BOPETOProgram } from "components/images/programs/BOPETOProgram";
+import { EducationRDCProgram } from "components/images/programs/EducationRDC";
+import { FormattedMessage } from "gatsby-plugin-intl";
+import React from "react";
+import { VieProgram } from "components/images/programs/Vie";
 
 export const ProgramsDisplay: React.FC = () => {
     const onClick = (programId: string) => {
         //Get me to the page with the correct tab open
-        console.log("this ", programId)
-    }
+        console.log("this ", programId);
+    };
 
     return (
         <div className="programs-parent-container">
@@ -50,5 +50,5 @@ export const ProgramsDisplay: React.FC = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};

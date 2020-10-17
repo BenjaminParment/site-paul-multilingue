@@ -1,22 +1,16 @@
-import "./Header.scss"
+import "./Header.scss";
 
-import {
-    CONTACT_PATH,
-    DONATIONS_PATH,
-    FINANCE_PATH,
-    HOMEPAGE_PATH,
-    PROGRAMS_PATH,
-} from "shared/routes"
-import { IntlShape, Link, injectIntl } from "gatsby-plugin-intl"
+import { CONTACT_PATH, DONATIONS_PATH, FINANCE_PATH, HOMEPAGE_PATH, PROGRAMS_PATH } from "shared/routes";
+import { IntlShape, Link, injectIntl } from "gatsby-plugin-intl";
 
-import HeaderButton from "components/header/header-button/HeaderButton"
-import { HeaderButtonDropdown } from "./header-button-dropdown/HeaderButtonDropdown"
-import LanguageButton from "components/header/language-button/LanguageButton"
-import React from "react"
-import { getChangeLanguage } from "shared/utils/languageUtils"
+import HeaderButton from "components/header/header-button/HeaderButton";
+import { HeaderButtonDropdown } from "./header-button-dropdown/HeaderButtonDropdown";
+import LanguageButton from "components/header/language-button/LanguageButton";
+import React from "react";
+import { getChangeLanguage } from "shared/utils/languageUtils";
 
 interface HeaderProps {
-    intl: IntlShape
+    intl: IntlShape;
 }
 
 const Header: React.FC<HeaderProps> = ({ intl }) => {
@@ -28,27 +22,15 @@ const Header: React.FC<HeaderProps> = ({ intl }) => {
                 </Link>
                 <span className="header-buttons">
                     <HeaderButtonDropdown />
-                    <HeaderButton
-                        id="header_buttons.programs"
-                        pageUrl={PROGRAMS_PATH}
-                    />
-                    <HeaderButton
-                        id="header_buttons.finance"
-                        pageUrl={FINANCE_PATH}
-                    />
-                    <HeaderButton
-                        id="header_buttons.donations"
-                        pageUrl={DONATIONS_PATH}
-                    />
-                    <HeaderButton
-                        id="header_buttons.contact"
-                        pageUrl={CONTACT_PATH}
-                    />
+                    <HeaderButton id="header_buttons.programs" pageUrl={PROGRAMS_PATH} />
+                    <HeaderButton id="header_buttons.finance" pageUrl={FINANCE_PATH} />
+                    <HeaderButton id="header_buttons.donations" pageUrl={DONATIONS_PATH} />
+                    <HeaderButton id="header_buttons.contact" pageUrl={CONTACT_PATH} />
                 </span>
             </div>
             <LanguageButton value={getChangeLanguage(intl)} />
         </div>
-    )
-}
+    );
+};
 
-export default injectIntl(Header)
+export default injectIntl(Header);

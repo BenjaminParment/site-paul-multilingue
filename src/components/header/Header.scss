@@ -2,15 +2,10 @@
 @import "~src/shared/style/mixins";
 @import "~src/shared/style/variables";
 
-$HEADER_BUTTONS_PADDING_TOP: 10px;
-
 .header-parent-container {
     width: 100%;
     height: $HEADER_HEIGHT;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     border-top: $HEADER_TOP_BORDER solid $PRIMARY_COLOR;
     border-bottom: 1px solid $MID_FORGROUND_COLOR;
     -webkit-box-shadow: 0 4px 6px -6px #222;
@@ -18,9 +13,8 @@ $HEADER_BUTTONS_PADDING_TOP: 10px;
     box-shadow: 0 4px 6px -6px #222;
 
     .left-container {
-        margin-left: $MARGIN_HORIZONTAL;
+        margin: auto 0 auto $MARGIN_HORIZONTAL;
         display: flex;
-        flex-direction: row;
         align-items: center;
 
         .header-title {
@@ -30,7 +24,6 @@ $HEADER_BUTTONS_PADDING_TOP: 10px;
         }
 
         .header-buttons {
-            padding-top: $HEADER_BUTTONS_PADDING_TOP;
             display: flex;
         }
     }

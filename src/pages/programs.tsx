@@ -1,10 +1,10 @@
-import "./page-style/programs.scss"
+import "./page-style/programs.scss";
 
-import Layout from "components/layout/Layout"
-import React from "react"
-import { Tabs } from "components/tabs/Tabs"
+import Layout from "components/layout/Layout";
+import React from "react";
+import { Tabs } from "components/tabs/Tabs";
 
-export const PROGRAMS_TABS = ["Education RDC 2025", "VIE", "BOPETO"]
+export const PROGRAMS_TABS = ["Education RDC 2025", "VIE", "BOPETO"];
 
 const ProgramsPage: React.FC = () => {
     return (
@@ -15,7 +15,7 @@ const ProgramsPage: React.FC = () => {
                 </div>
             </div>
         </Layout>
-    )
-}
+    );
+};
 
-export default ProgramsPage
+export default ProgramsPage;

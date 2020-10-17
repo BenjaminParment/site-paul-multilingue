@@ -1,12 +1,12 @@
-import "./HeaderButton.scss"
+import "./HeaderButton.scss";
 
-import { FormattedMessage } from "gatsby-plugin-intl"
-import { Link } from "gatsby-plugin-intl"
-import React from "react"
+import { FormattedMessage } from "gatsby-plugin-intl";
+import { Link } from "gatsby-plugin-intl";
+import React from "react";
 
 interface HeaderButtonProps {
-    id: string
-    pageUrl: string
+    id: string;
+    pageUrl: string;
 }
 
 const HeaderButton: React.FC<HeaderButtonProps> = ({ id, pageUrl }) => {
@@ -16,7 +16,7 @@ const HeaderButton: React.FC<HeaderButtonProps> = ({ id, pageUrl }) => {
                 <FormattedMessage id={id} />
             </Link>
         </div>
-    )
-}
+    );
+};
 
-export default HeaderButton
+export default HeaderButton;

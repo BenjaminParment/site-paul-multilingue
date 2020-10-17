@@ -3,7 +3,7 @@
 @import "~shared/style/colors";
 
 .language-button-container {
-    margin-right: $MARGIN_HORIZONTAL;
+    margin: auto $MARGIN_HORIZONTAL auto auto;
     background-color: $PRIMARY_COLOR;
     border-radius: 4px;
 
