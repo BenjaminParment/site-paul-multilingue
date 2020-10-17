@@ -1,19 +1,19 @@
-import "./SingleProgram.scss"
+import "./SingleProgram.scss";
 
-import { BOPETOProgram } from "components/images/programs/BOPETOProgram"
-import { EducationRDCProgram } from "components/images/programs/EducationRDC"
-import { FormattedMessage } from "gatsby-plugin-intl"
-import React from "react"
-import { VieProgram } from "components/images/programs/Vie"
+import { BOPETOProgram } from "components/images/programs/BOPETOProgram";
+import { EducationRDCProgram } from "components/images/programs/EducationRDC";
+import { FormattedMessage } from "gatsby-plugin-intl";
+import React from "react";
+import { VieProgram } from "components/images/programs/Vie";
 
 interface SingleProgramProps {
-    program: string
+    program: string;
 }
 
 interface ProgramInfo {
-    description: any
-    videoUrl: string
-    photo: JSX.Element
+    description: any;
+    videoUrl: string;
+    photo: JSX.Element;
 }
 
 export const SingleProgram: React.FC<SingleProgramProps> = ({ program }) => {
@@ -21,35 +21,29 @@ export const SingleProgram: React.FC<SingleProgramProps> = ({ program }) => {
         switch (program) {
             default:
                 return {
-                    description: (
-                        <FormattedMessage id="programs.education.description" />
-                    ),
+                    description: <FormattedMessage id="programs.education.description" />,
 
                     videoUrl: "https://www.youtube.com/embed/S3K6pUOAmTE",
                     photo: <EducationRDCProgram className="image" />,
-                }
+                };
             case "VIE":
                 return {
-                    description: (
-                        <FormattedMessage id="programs.vie.description" />
-                    ),
+                    description: <FormattedMessage id="programs.vie.description" />,
 
                     videoUrl: "https://www.youtube.com/embed/S3K6pUOAmTE",
                     photo: <VieProgram className="image" />,
-                }
+                };
             case "BOPETO":
                 return {
-                    description: (
-                        <FormattedMessage id="programs.bopeto.description" />
-                    ),
+                    description: <FormattedMessage id="programs.bopeto.description" />,
 
                     videoUrl: "https://www.youtube.com/embed/S3K6pUOAmTE",
                     photo: <BOPETOProgram className="image" />,
-                }
+                };
         }
-    }
+    };
 
-    const openedProgram: ProgramInfo = getOpenedProgram()
+    const openedProgram: ProgramInfo = getOpenedProgram();
 
     return (
         <div className="single-program-parent-container">
@@ -69,5 +63,5 @@ export const SingleProgram: React.FC<SingleProgramProps> = ({ program }) => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};

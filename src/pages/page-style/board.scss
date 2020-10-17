@@ -2,25 +2,21 @@
 
 .board-parent-container {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
 
     .left-container {
         .board-title {
             @include headerButton;
             text-decoration: underline;
-            padding-bottom: 10px;
             font-size: 30px;
         }
 
         .profile {
-            margin-top: 10px;
+            margin: 10px 0;
         }
     }
 
     .right-container {
-        padding-left: 100px;
-        width: 45%;
-        border: 1px solid red;
+        margin: auto 50px auto 100px;
     }
 }

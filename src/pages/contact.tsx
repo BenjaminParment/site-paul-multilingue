@@ -1,8 +1,8 @@
-import "./page-style/contact.scss"
+import "./page-style/contact.scss";
 
-import { FormattedMessage } from "gatsby-plugin-intl"
-import Layout from "components/layout/Layout"
-import React from "react"
+import { FormattedMessage } from "gatsby-plugin-intl";
+import Layout from "components/layout/Layout";
+import React from "react";
 
 const ContactPage: React.FC = () => {
     return (
@@ -16,7 +16,7 @@ const ContactPage: React.FC = () => {
                 </span>
             </div>
         </Layout>
-    )
-}
+    );
+};
 
-export default ContactPage
+export default ContactPage;

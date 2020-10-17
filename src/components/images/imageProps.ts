@@ -1,3 +1,3 @@
 export interface ImageProps {
-    className?: string
+    className?: string;
 }

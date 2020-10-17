@@ -1,17 +1,14 @@
-import "./ProfileDescription.scss"
+import "./ProfileDescription.scss";
 
-import { FormattedMessage } from "gatsby-plugin-intl"
-import React from "react"
+import { FormattedMessage } from "gatsby-plugin-intl";
+import React from "react";
 
 export interface ProfileDescriptionProps {
-    id: string
-    image: JSX.Element
+    id: string;
+    image: JSX.Element;
 }
 
-export const ProfileDescription: React.FC<ProfileDescriptionProps> = ({
-    id,
-    image,
-}) => {
+export const ProfileDescription: React.FC<ProfileDescriptionProps> = ({ id, image }) => {
     return (
         <div className="profile-description-container">
             <span className="profile-name">
@@ -24,5 +21,5 @@ export const ProfileDescription: React.FC<ProfileDescriptionProps> = ({
                 </span>
             </div>
         </div>
-    )
-}
+    );
+};

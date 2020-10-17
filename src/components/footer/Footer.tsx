@@ -1,7 +1,7 @@
-import "./Footer.scss"
+import "./Footer.scss";
 
-import { FormattedMessage } from "gatsby-plugin-intl"
-import React from "react"
+import { FormattedMessage } from "gatsby-plugin-intl";
+import React from "react";
 
 class Footer extends React.Component {
     render = () => (
@@ -18,7 +18,7 @@ class Footer extends React.Component {
                 </span>
             </div>
         </div>
-    )
+    );
 }
 
-export default Footer
+export default Footer;
