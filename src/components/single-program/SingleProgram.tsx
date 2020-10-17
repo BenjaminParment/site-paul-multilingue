@@ -20,24 +20,22 @@ export const SingleProgram: React.FC<SingleProgramProps> = ({ program }) => {
     const getOpenedProgram = (): ProgramInfo => {
         switch (program) {
             default:
+            case "Education RDC 2025":
                 return {
                     description: <FormattedMessage id="programs.education.description" />,
-
                     videoUrl: "https://www.youtube.com/embed/S3K6pUOAmTE",
                     photo: <EducationRDCProgram className="image" />,
                 };
             case "VIE":
                 return {
                     description: <FormattedMessage id="programs.vie.description" />,
-
-                    videoUrl: "https://www.youtube.com/embed/S3K6pUOAmTE",
+                    videoUrl: "https://www.youtube.com/embed/QDUb7vxMzeY",
                     photo: <VieProgram className="image" />,
                 };
             case "BOPETO":
                 return {
                     description: <FormattedMessage id="programs.bopeto.description" />,
-
-                    videoUrl: "https://www.youtube.com/embed/S3K6pUOAmTE",
+                    videoUrl: "https://www.youtube.com/embed/KWUVTxkl5rI",
                     photo: <BOPETOProgram className="image" />,
                 };
         }
@@ -47,7 +45,7 @@ export const SingleProgram: React.FC<SingleProgramProps> = ({ program }) => {
 
     return (
         <div className="single-program-parent-container">
-            <div className="top-container">{openedProgram.photo}</div>
+            {/* <div className="top-container">{openedProgram.photo}</div> */}
             <div className="bottom-container">
                 <div className="description">{openedProgram.description}</div>
                 <div className="video">

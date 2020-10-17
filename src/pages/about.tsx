@@ -1,7 +1,7 @@
-import "./page-style/board.scss"
+import "./page-style/board.scss";
 
-import Layout from "components/layout/Layout"
-import React from "react"
+import Layout from "components/layout/Layout";
+import React from "react";
 
 const About: React.FC = () => {
     return (
@@ -9,7 +9,7 @@ const About: React.FC = () => {
             {/* <TextDisplay image={MissionImage}>Missie</TextDisplay>
             <TextDisplay image={TeamImage}>Team</TextDisplay> */}
         </Layout>
-    )
-}
+    );
+};
 
-export default About
+export default About;

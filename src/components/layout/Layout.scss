@@ -5,6 +5,7 @@
 $CONTENT_VERTICAL_PADDING: 25px;
 
 html {
+    min-width: 1024px;
     font-family: "Roboto", sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -18,23 +19,15 @@ body {
 }
 
 .body-parent-container {
-    position: relative;
-    height: fit-content;
-    padding: $CONTENT_VERTICAL_PADDING $MARGIN_HORIZONTAL
-        $CONTENT_VERTICAL_PADDING $MARGIN_HORIZONTAL;
+    display: block;
+    overflow: scroll;
+    padding: $CONTENT_VERTICAL_PADDING $MARGIN_HORIZONTAL $CONTENT_VERTICAL_PADDING $MARGIN_HORIZONTAL;
     min-height: calc(
         100vh -
-            (
-                #{$HEADER_HEIGHT} + #{$HEADER_TOP_BORDER} + #{$FOOTER_HEIGHT} + (2 *
-                            #{$CONTENT_VERTICAL_PADDING} + 1px)
-            )
+            (#{$HEADER_HEIGHT} + #{$HEADER_TOP_BORDER} + #{$FOOTER_HEIGHT} + (2 * #{$CONTENT_VERTICAL_PADDING} + 1px))
     );
-    display: flex;
-    flex-direction: column;
+}
 
-    /* Hide content that overflows and hide all scrollbars for all browsers */
-    -ms-overflow-style: none;
-    &::-webkit-scrollbar {
-        display: none;
-    }
+::-webkit-scrollbar {
+    display: none;
 }
