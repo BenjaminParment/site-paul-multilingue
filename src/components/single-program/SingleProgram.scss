@@ -1,5 +1,6 @@
 .single-program-parent-container {
     display: block;
+    background-color: white;
 
     .top-container {
         display: flex;
@@ -9,18 +10,18 @@
 
     .bottom-container {
         display: flex;
-        flex-direction: row;
-        margin-top: 20px;
         height: 70%;
+        margin-top: 10px;
 
         .description {
-            width: 300px;
+            width: 40%;
         }
 
         .video {
             display: flex;
             height: 500px;
             min-width: 800px;
+            max-width: 60%;
             margin-left: 10px;
 
             iframe {

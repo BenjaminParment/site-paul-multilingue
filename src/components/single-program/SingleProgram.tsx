@@ -45,7 +45,6 @@ export const SingleProgram: React.FC<SingleProgramProps> = ({ program }) => {
 
     return (
         <div className="single-program-parent-container">
-            {/* <div className="top-container">{openedProgram.photo}</div> */}
             <div className="bottom-container">
                 <div className="description">{openedProgram.description}</div>
                 <div className="video">
