@@ -5,13 +5,16 @@
     height: 50px;
     width: 100%;
     display: flex;
+    margin: auto;
 
     .tab {
-        width: 33%;
+        width: 33.3%;
         border: none;
         color: $SECONDARY_TEXT_COLOR;
         font-size: $HEADING_FONT_SIZE;
         background-color: $LIGHT_FORGROUND_COLOR;
+        outline: none;
+
         &.open {
             background-color: $MID_FORGROUND_COLOR;
         }

@@ -14,13 +14,14 @@ $PROGRAM_TITLE_HEIGHT: 40px;
     align-items: center;
 
     .programs-title {
+        display: flex;
+        margin: 0 auto 10px auto;
         font-size: 30px;
         font-weight: bold;
 
         height: $PROGRAM_TITLE_HEIGHT;
         width: fit-content;
         line-height: $PROGRAM_TITLE_HEIGHT;
-        padding: 0px 10px 20px 10px;
     }
 
     .programs-container {
