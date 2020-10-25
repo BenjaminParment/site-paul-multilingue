@@ -2,19 +2,27 @@ import "./Footer.scss";
 
 import { FormattedMessage } from "gatsby-plugin-intl";
 import React from "react";
+import { Link } from "gatsby-plugin-intl";
+import { CONTACT_PATH } from "shared/routes";
 
 class Footer extends React.Component {
     render = () => (
         <div className="footer-parent-container">
             <div className="footer-info">
                 <span className="column">
-                    <FormattedMessage id="footer.left" />
+                    <Link to={CONTACT_PATH}>
+                        <FormattedMessage id="footer.left" />
+                    </Link>
                 </span>
                 <span className="column">
-                    <FormattedMessage id="footer.middle" />
+                    <Link to={CONTACT_PATH}>
+                        <FormattedMessage id="footer.middle" />
+                    </Link>
                 </span>
                 <span className="column">
-                    <FormattedMessage id="footer.right" />
+                    <Link to={CONTACT_PATH}>
+                        <FormattedMessage id="footer.right" />
+                    </Link>
                 </span>
             </div>
         </div>

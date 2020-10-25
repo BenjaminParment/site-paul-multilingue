@@ -26,6 +26,11 @@ $PADDING_TEXT_VERT: 10px;
             &:last-child {
                 border: none;
             }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
         }
     }
 }
