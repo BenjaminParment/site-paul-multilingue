@@ -2,13 +2,16 @@
 
 .text-display-container {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 400px;
     height: 100%;
 
     .text-container {
         @include generalFont;
         padding-left: 25px;
+    }
+
+    .image {
+        width: 400px;
     }
 }

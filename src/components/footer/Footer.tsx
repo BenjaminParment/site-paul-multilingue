@@ -3,14 +3,14 @@ import "./Footer.scss";
 import { FormattedMessage } from "gatsby-plugin-intl";
 import React from "react";
 import { Link } from "gatsby-plugin-intl";
-import { CONTACT_PATH } from "shared/routes";
+import { ABOUT_PATH, CONTACT_PATH } from "shared/routes";
 
 class Footer extends React.Component {
     render = () => (
         <div className="footer-parent-container">
             <div className="footer-info">
                 <span className="column">
-                    <Link to={CONTACT_PATH}>
+                    <Link to={ABOUT_PATH}>
                         <FormattedMessage id="footer.left" />
                     </Link>
                 </span>

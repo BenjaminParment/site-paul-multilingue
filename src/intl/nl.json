@@ -9,7 +9,8 @@
         "programs": "Programas",
         "finance": "Financeijn",
         "contact": "Kontact",
-        "donations": "Donations"
+        "donations": "Donations",
+        "about": "Over ons"
     },
     "footer": {
         "left": "Over Stichting Mbote",
@@ -92,5 +93,8 @@
         "bopeto": {
             "description": "blah blah"
         }
+    },
+    "about": {
+        "title": "Over de Mbappe"
     }
 }

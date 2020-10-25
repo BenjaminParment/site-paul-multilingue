@@ -11,7 +11,7 @@ interface TextDisplayProps {
 export const TextDisplay: React.FC<TextDisplayProps> = ({ children, image, imageStyle }) => {
     return (
         <div className="text-display-container">
-            <div className={imageStyle}>{image}</div>
+            <div className="image">{image}</div>
             <div className="text-container">{children}</div>
         </div>
     );

@@ -1,0 +1,16 @@
+@import "~shared/style/mixins";
+@import "~shared/style/colors";
+
+.about-parent-container {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        height: 50px;
+        @include headerButton;
+    }
+
+    .mission {
+        margin-bottom: 20px;
+    }
+}
