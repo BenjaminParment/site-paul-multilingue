@@ -5,7 +5,6 @@ import { HomepageImage } from "components/images/homepage/HomepageImage";
 import Layout from "components/layout/Layout";
 import { ProgramsDisplay } from "components/programs-display/ProgramsDisplay";
 import React from "react";
-import { TextDisplay } from "components/reusables/text-display/TextDisplay";
 
 const IndexPage: React.FC = () => {
     return (
@@ -21,14 +20,6 @@ const IndexPage: React.FC = () => {
                 </div>
                 <div className="bottom-container">
                     <ProgramsDisplay />
-                </div>
-                <div className="achievements">
-                    <TextDisplay image={<HomepageImage />}>
-                        <>
-                            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-                            blah
-                        </>
-                    </TextDisplay>
                 </div>
             </div>
         </Layout>
