@@ -4,7 +4,6 @@ import Layout from "components/layout/Layout";
 import React from "react";
 import { MissionImage } from "components/images/about/Mission";
 import { TeamImage } from "components/images/about/Team";
-import { TextDisplay } from "components/reusables/text-display/TextDisplay";
 import { FormattedMessage } from "gatsby-plugin-intl";
 
 const About: React.FC = () => {
@@ -14,15 +13,21 @@ const About: React.FC = () => {
                 <div className="title">
                     <FormattedMessage id="about.title" />
                 </div>
-                <div className="mission">
-                    <TextDisplay image={<MissionImage />}>
-                        <>Missie</>
-                    </TextDisplay>
-                </div>
-                <div className="mission">
-                    <TextDisplay image={<TeamImage />}>
-                        <>Team</>
-                    </TextDisplay>
+                <div className="mission-parent-container">
+                    <div className="single-program">
+                        <div className="top-container">
+                            <div className="single-program-image">
+                                <MissionImage />
+                            </div>
+                            <div className="single-program-title">Missie</div>
+                        </div>
+                    </div>
+                    <div className="single-program">
+                        <div className="single-program-image">
+                            <TeamImage />
+                        </div>
+                        <div className="single-program-title">Team</div>
+                    </div>
                 </div>
             </div>
         </Layout>

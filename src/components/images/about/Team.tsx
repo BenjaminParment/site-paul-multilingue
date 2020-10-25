@@ -7,7 +7,7 @@ import React from "react";
 export const TeamImage: React.FC<ImageProps> = ({ className }) => {
     const data = useStaticQuery(graphql`
         query {
-            placeholderImage: file(relativePath: { eq: "image10.png" }) {
+            placeholderImage: file(relativePath: { eq: "image6.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 1920, maxHeight: 1920) {
                         ...GatsbyImageSharpFluid
