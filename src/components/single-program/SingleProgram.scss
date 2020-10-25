@@ -1,6 +1,5 @@
 .single-program-parent-container {
     display: block;
-    background-color: white;
 
     .top-container {
         display: flex;
@@ -10,11 +9,13 @@
 
     .bottom-container {
         display: flex;
+        justify-content: space-between;
         height: 70%;
         margin-top: 10px;
 
         .description {
             width: 40%;
+            border: 1px solid #c1c1c1;
         }
 
         .video {
@@ -32,6 +33,8 @@
     }
 
     .image {
-        height: 250px;
+        height: 500px;
+        min-width: 800px;
+        max-width: 60%;
     }
 }

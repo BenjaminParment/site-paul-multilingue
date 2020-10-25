@@ -12,8 +12,8 @@ interface SingleProgramProps {
 
 interface ProgramInfo {
     description: any;
-    videoUrl: string;
-    photo: JSX.Element;
+    videoUrl?: string;
+    photo?: JSX.Element;
 }
 
 export const SingleProgram: React.FC<SingleProgramProps> = ({ program }) => {
@@ -23,19 +23,17 @@ export const SingleProgram: React.FC<SingleProgramProps> = ({ program }) => {
             case "Education RDC 2025":
                 return {
                     description: <FormattedMessage id="programs.education.description" />,
-                    videoUrl: "https://www.youtube.com/embed/S3K6pUOAmTE",
+                    videoUrl: "https://www.youtube.com/embed/wxy4wiPhJkY",
                     photo: <EducationRDCProgram className="image" />,
                 };
             case "VIE":
                 return {
                     description: <FormattedMessage id="programs.vie.description" />,
-                    videoUrl: "https://www.youtube.com/embed/QDUb7vxMzeY",
                     photo: <VieProgram className="image" />,
                 };
             case "BOPETO":
                 return {
                     description: <FormattedMessage id="programs.bopeto.description" />,
-                    videoUrl: "https://www.youtube.com/embed/KWUVTxkl5rI",
                     photo: <BOPETOProgram className="image" />,
                 };
         }
@@ -48,15 +46,19 @@ export const SingleProgram: React.FC<SingleProgramProps> = ({ program }) => {
             <div className="bottom-container">
                 <div className="description">{openedProgram.description}</div>
                 <div className="video">
-                    <iframe
-                        src={openedProgram.videoUrl}
-                        title={openedProgram.description}
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        frameBorder="0"
-                        webkitallowfullscreen="true"
-                        mozallowfullscreen="true"
-                        allowFullScreen
-                    />
+                    {openedProgram.videoUrl ? (
+                        <iframe
+                            src={openedProgram.videoUrl}
+                            title={openedProgram.description}
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            frameBorder="0"
+                            webkitallowfullscreen="true"
+                            mozallowfullscreen="true"
+                            allowFullScreen
+                        />
+                    ) : (
+                        openedProgram.photo
+                    )}
                 </div>
             </div>
         </div>
