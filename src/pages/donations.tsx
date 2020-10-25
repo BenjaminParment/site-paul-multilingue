@@ -12,12 +12,21 @@ const DonationsPage: React.FC = () => {
                     <FormattedMessage id="donations.title" />
                 </span>
                 <div className="bottom-container">
-                    <span className="left-container">Text</span>
+                    <div className="left-container">
+                        <FormattedMessage id="donations.description.1" />
+                        <br />
+                        <br />
+                        <FormattedMessage id="donations.description.2" />
+                    </div>
                     <div className="right-container">
-                        <div className="video-title">Titre de le video</div>
+                        <div className="video-title">
+                            <FormattedMessage id="donations.video.1.title" />
+                        </div>
                         <div className="video">Video</div>
-                        <div className="video-title">Titre de le video</div>
-                        <div className="video">Titre 2</div>
+                        <div className="video-title">
+                            <FormattedMessage id="donations.video.2.title" />
+                        </div>
+                        <div className="video">Video 2</div>
                     </div>
                 </div>
             </div>
