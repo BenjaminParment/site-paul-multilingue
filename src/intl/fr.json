@@ -9,7 +9,8 @@
         "programs": "Programmes",
         "finance": "Finance",
         "contact": "Contacte",
-        "donations": "Donations"
+        "donations": "Donations",
+        "about": "La fondation"
     },
     "footer": {
         "left": "Sur Stichting Mbote",
@@ -92,5 +93,8 @@
         "bopeto": {
             "description": "bloh bloph"
         }
+    },
+    "about": {
+        "title": "A propes des Mbappe"
     }
 }

@@ -1,0 +1,56 @@
+@import "~shared/style/mixins";
+@import "~shared/style/colors";
+@import "~shared/style/variables";
+
+.about-parent-container {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        height: 50px;
+        @include headerButton;
+    }
+
+    .mission-parent-container {
+        display: flex;
+
+        .mission {
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+        }
+
+        .single-program {
+            display: flex;
+            align-items: center;
+            width: 30%;
+            border-top: 4px $PROGRAMS_TOP_BORDER solid;
+            background-color: white;
+
+            &:not(:last-child) {
+                margin-right: 30px;
+            }
+
+            .single-program-title {
+                text-align: center;
+                width: 100%;
+                padding: 10px 0px 10px 0px;
+
+                .title {
+                    margin-left: 10px;
+                    @include headerButton;
+
+                    &:hover {
+                        color: $PRIMARY_COLOR;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .single-program-image {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}

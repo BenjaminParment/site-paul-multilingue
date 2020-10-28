@@ -7,7 +7,7 @@ import React from "react";
 export const MissionImage: React.FC<ImageProps> = ({ className }) => {
     const data = useStaticQuery(graphql`
         query {
-            placeholderImage: file(relativePath: { eq: "image9.png" }) {
+            placeholderImage: file(relativePath: { eq: "image5.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 1920, maxHeight: 1920) {
                         ...GatsbyImageSharpFluid

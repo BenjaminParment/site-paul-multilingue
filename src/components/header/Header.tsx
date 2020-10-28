@@ -1,6 +1,6 @@
 import "./Header.scss";
 
-import { CONTACT_PATH, DONATIONS_PATH, FINANCE_PATH, HOMEPAGE_PATH, PROGRAMS_PATH } from "shared/routes";
+import { ABOUT_PATH, CONTACT_PATH, DONATIONS_PATH, FINANCE_PATH, HOMEPAGE_PATH, PROGRAMS_PATH } from "shared/routes";
 import { IntlShape, Link, injectIntl } from "gatsby-plugin-intl";
 
 import HeaderButton from "components/header/header-button/HeaderButton";
@@ -21,10 +21,12 @@ const Header: React.FC<HeaderProps> = ({ intl }) => {
                     {intl.formatMessage({ id: "title" })}
                 </Link>
                 <span className="header-buttons">
-                    <HeaderButtonDropdown />
+                    <HeaderButton id="header_buttons.about" pageUrl={ABOUT_PATH} />
                     <HeaderButton id="header_buttons.programs" pageUrl={PROGRAMS_PATH} />
-                    <HeaderButton id="header_buttons.finance" pageUrl={FINANCE_PATH} />
                     <HeaderButton id="header_buttons.donations" pageUrl={DONATIONS_PATH} />
+                    <HeaderButton id="header_buttons.finance" pageUrl={FINANCE_PATH} />
+                    {/* Pofile dropdown */}
+                    <HeaderButtonDropdown />
                     <HeaderButton id="header_buttons.contact" pageUrl={CONTACT_PATH} />
                 </span>
             </div>
