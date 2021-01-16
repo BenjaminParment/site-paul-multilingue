@@ -10,13 +10,19 @@
     .tab {
         width: 33.3%;
         border: none;
-        color: $SECONDARY_TEXT_COLOR;
+        color: $PRIMARY_TEXT_COLOR;
         font-size: $HEADING_FONT_SIZE;
         background-color: $LIGHT_FORGROUND_COLOR;
         outline: none;
 
+        &:hover {
+            background-color: $TEST;
+            color: $SECONDARY_TEXT_COLOR;
+        }
+
         &.open {
             background-color: $MID_FORGROUND_COLOR;
+            color: $SECONDARY_TEXT_COLOR;
         }
     }
 }

@@ -95,7 +95,19 @@
         }
     },
     "about": {
-        "title": "Over de Mbappe"
+        "title": "Over de Mbappe",
+        "mission": {
+            "title": "Mission",
+            "content": "Wij zijn voornamelijk in de regio van Kinshasa, Democratische Republiek Congo actief. Onze lokale coördinator zorgt er samen met de lokale vrijwilligers voor dat onze middelen maximale impact hebben voor het leven van de weeskinderen. Het bestuur in Nederland overlegt wekelijks met de lokale coördinator om ervoor te zorgen dat we als organisatie op één lijn staan."
+        },
+        "team": {
+            "title": "Team",
+            "content": "Wij zijn voornamelijk in de regio van Kinshasa, Democratische Republiek Congo actief. Onze lokale coördinator zorgt er samen met de lokale vrijwilligers voor dat onze middelen maximale impact hebben voor het leven van de weeskinderen. Het bestuur in Nederland overlegt wekelijks met de lokale coördinator om ervoor te zorgen dat we als organisatie op één lijn staan."
+        },
+        "presentation": {
+            "title": "Presentatie",
+            "content": "Wij zijn voornamelijk in de regio van Kinshasa, Democratische Republiek Congo actief. Onze lokale coördinator zorgt er samen met de lokale vrijwilligers voor dat onze middelen maximale impact hebben voor het leven van de weeskinderen. Het bestuur in Nederland overlegt wekelijks met de lokale coördinator om ervoor te zorgen dat we als organisatie op één lijn staan."
+        }
     },
     "news": {
         "title": "News",
