@@ -19,14 +19,26 @@ const About: React.FC = () => {
                             <div className="single-program-image">
                                 <MissionImage />
                             </div>
-                            <div className="single-program-title">Missie</div>
+                            <div className="single-program-title">
+                                <FormattedMessage id="about.mission.title" />
+                            </div>
                         </div>
                     </div>
                     <div className="single-program">
                         <div className="single-program-image">
                             <TeamImage />
                         </div>
-                        <div className="single-program-title">Team</div>
+                        <div className="single-program-title">
+                            <FormattedMessage id="about.team.title" />
+                        </div>
+                    </div>
+                    <div className="single-program">
+                        <div className="single-program-image">
+                            <TeamImage />
+                        </div>
+                        <div className="single-program-title">
+                            <FormattedMessage id="about.presentation.title" />
+                        </div>
                     </div>
                 </div>
             </div>
