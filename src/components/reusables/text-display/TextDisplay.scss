@@ -3,12 +3,13 @@
 .text-display-container {
     display: flex;
     align-items: center;
-    width: 400px;
     height: 100%;
 
     .text-container {
         @include generalFont;
         padding-left: 25px;
+        text-align: justify;
+        word-break: keep-all;
     }
 
     .image {

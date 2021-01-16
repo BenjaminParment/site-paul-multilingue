@@ -1,0 +1,31 @@
+@import "~shared/style/mixins";
+@import "~shared/style/colors";
+@import "~shared/style/variables";
+
+.news-container {
+    height: auto;
+    width: 100%;
+    display: block;
+
+    .news-title {
+        display: flex;
+        margin: 0 auto 10px auto;
+        font-size: 30px;
+        font-weight: bold;
+
+        width: fit-content;
+    }
+
+    .story:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .image {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.text-display-container {
+    width: 100%;
+}

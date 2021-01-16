@@ -5,6 +5,7 @@ import { HomepageImage } from "components/images/homepage/HomepageImage";
 import Layout from "components/layout/Layout";
 import { ProgramsDisplay } from "components/programs-display/ProgramsDisplay";
 import React from "react";
+import { News } from "components/news/News";
 
 const IndexPage: React.FC = () => {
     return (
@@ -18,6 +19,7 @@ const IndexPage: React.FC = () => {
                         </div>
                     </div>
                 </div>
+                <News></News>
                 <div className="bottom-container">
                     <ProgramsDisplay />
                 </div>
