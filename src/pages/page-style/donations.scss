@@ -24,6 +24,10 @@
             border: 2px solid #c1c1c1;
             border-radius: 4px;
             padding-left: 10px;
+
+            @include generalFont;
+            text-align: justify;
+            word-break: keep-all;
         }
 
         .right-container {

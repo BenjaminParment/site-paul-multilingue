@@ -1,15 +1,15 @@
 import { graphql, useStaticQuery } from "gatsby";
 
+import { ImageProps } from "../ImageProps";
 import Img from "gatsby-image";
 import React from "react";
-import { ImageProps } from "./ImageProps";
 
-export const QuestionMarkImage: React.FC<ImageProps> = ({ className }) => {
+export const News1Image: React.FC<ImageProps> = ({ className }) => {
     const data = useStaticQuery(graphql`
         query {
-            placeholderImage: file(relativePath: { eq: "picture_4.jpg" }) {
+            placeholderImage: file(relativePath: { eq: "image8.png" }) {
                 childImageSharp {
-                    fluid(maxWidth: 840, maxHeight: 880) {
+                    fluid(maxWidth: 1920, maxHeight: 1920) {
                         ...GatsbyImageSharpFluid
                     }
                 }

@@ -13,6 +13,10 @@
     }
 
     .contact-content {
+        @include generalFont;
         padding-top: 25px;
+
+        text-align: justify;
+        word-break: keep-all;
     }
 }
