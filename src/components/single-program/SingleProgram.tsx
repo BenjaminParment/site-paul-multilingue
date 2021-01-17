@@ -23,7 +23,7 @@ export const SingleProgram: React.FC<SingleProgramProps> = ({ program }) => {
             case "Education RDC 2025":
                 return {
                     description: <FormattedMessage id="programs.education.description" />,
-                    videoUrl: "https://www.youtube.com/embed/wxy4wiPhJkY",
+                    videoUrl: "https://www.youtube.com/embed/VA261-XC5n4",
                     photo: <EducationRDCProgram className="image" />,
                 };
             case "VIE":

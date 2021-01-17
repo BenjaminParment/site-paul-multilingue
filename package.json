@@ -1,5 +1,6 @@
 {
-  "name": "paul-charity-website",
+  "name": "mbote-charity-website",
+  "homepage": "https://mbote.eu/",
   "private": true,
   "description": "Charity MBote",
   "version": "0.1.0",

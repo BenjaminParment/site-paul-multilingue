@@ -1,21 +1,24 @@
 @import "~shared/style/mixins";
 
 .board-parent-container {
-    display: flex;
-    align-items: flex-start;
-
     .left-container {
         .board-title {
             font-weight: 700;
             font-size: 30px;
+            display: flex;
+            flex-direction: column;
+
+            .content {
+                @include generalFont;
+                font-weight: normal;
+                text-align: justify;
+                word-break: keep-all;
+                padding: 10px 0;
+            }
         }
 
         .profile {
             margin: 10px 0;
         }
-    }
-
-    .right-container {
-        margin: auto 50px auto 100px;
     }
 }

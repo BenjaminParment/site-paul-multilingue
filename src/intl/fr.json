@@ -7,13 +7,13 @@
             "voluntaries": "Volontaires"
         },
         "programs": "Programmes",
-        "finance": "Finance",
-        "contact": "Contacte",
+        "finance": "Rapports Annuels",
+        "contact": "Contact",
         "donations": "Donations",
         "about": "La fondation"
     },
     "footer": {
-        "left": "Sur Stichting Mbote",
+        "left": "La fondation",
         "middle": "Information Juridique",
         "right": "Contact"
     },
@@ -27,43 +27,43 @@
         }
     },
     "finance": {
-        "download_action": "Telechargez la finance de l'annee: "
+        "download_action": "Telechargez les rapports annuels: "
     },
     "board": {
         "title": "Conseil d'administration",
-        "description": "Page des profiles du board",
+        "description": "Page des profiles du conseil d'administration",
         "paul": {
             "name": "Paul Deza de Massiac",
-            "description": "Paul Deza de Massiac"
+            "description": "Paul Deza de Massiac est avocat et fait parti du cabinet NautaDutilh. Paul conseille au sujet du droit de la finance et du droit de la concurrence. Paul a habité en République Démocratique du Congo dans le passé, connait bien les us et coutumes du pays et a crée un bon réseau en RDC."
         },
         "ward": {
             "name": "Ward Nusselder",
-            "description": "Ward Nusselder"
+            "description": "Ward Nusselder travaille comme analyste énergétique pour l'Afrique orientale et australe à FMO, la banque de développement néerlandaise. De plus, Ward Nusselder a pu acquérir une grande expérience sur les circonstances en Afrique, expériences qu'il utilise pour travailler sur des projets pour la fondation."
         },
         "luc": {
             "name": "Luc Stultiens",
-            "description": "Luc Stultiens"
+            "description": "Luc Stultiens est assistant parlementaire du groupe parlementaire GroenLinks. Auparavant, Luc Stultiens était financial trainiee au ministère des Finances Néerlandais. Luc Stultiens a également pu acquérir de l'expérience en tant que trésorier grâce à sa fonction de trésorier au conseil d'administration de l'association d'études UCSA, une association d'études avec un budget annuel de plus de 300 000,00 euros."
         }
     },
     "volunteers": {
-        "title": "Benevole",
-        "description": "Onze organisatie bestaat geheel uit vrijwilligers. Dankzij al deze vrijwilligers kunnen we ervoor zorgen dat er zo veel mogelijk van de beschikbare middelen direct bij de weeskinderen komen en zo een maximale impact hebben.",
+        "title": "Bénévole",
+        "description": "Notre organisation est entièrement composée de bénévoles. Grâce à tous ces bénévoles, nous pouvons nous assurer que le maximum de ressources disponibles va directement aux orphelins et a ainsi le maximum d'impact.",
         "profile_1": {
             "name": "Béni Bobanga",
-            "description": "Béni Bobanga is de lokale grondlegger van de stichting en zet zich lang voor het begin van de activiteiten van de stichting in 2017 al in voor weeskinderen in de regio van Kinshasa."
+            "description": "Béni Bobanga est le fondateur local de la fondation et s'est engagé auprès des orphelins de la région de Kinshasa bien avant le début des activités de la fondation en 2017."
         },
         "profile_2": {
             "name": "Rebecca Mputu",
-            "description": "Rebecca Mputu is de lokale coördinator van de stichting en zorgt ervoor dat de vrijwilligers ter plekke zo goed mogelijk kunnen bijdragen aan het welzijn van de weeskinderen."
+            "description": "Rebecca Mputu est la coordinatrice locale de la fondation et veille à ce que les volontaires sur place puissent contribuer autant que possible au bien-être des orphelins."
         },
         "profile_3": {
             "name": "Benjamin Parment",
-            "description": "Benjamin Parment is de websiteontwikkelaar van de stichting, en is ook trouwens een klein poesje"
+            "description": "Benjamin Parment est le développeur du site Web de la fondation"
         }
     },
     "contact": {
-        "title": "Contacter nous",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title": "Contactez nous",
+        "text": "Pour toute question, veuillez envoyer un e-mail à stichtingmboté@gmail.com ou envoyer une lettre à notre bureau au lekstraat 74-2 1079 ET Amsterdam."
     },
     "button": {
         "download": "Telecharger"
@@ -71,27 +71,28 @@
     "donations": {
         "title": "Pourquoi faire une donation",
         "description": {
-            "1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            "1": "La fondation essaie d'avoir le plus d'impact possible sur la vie du plus grand nombre d'orphelins possible dans la région de Kinshasa. Nous faisons cela en exécutant nos trois programmes, EDUCATION RDC 2025, PROGRAMME VIE et PROGRAMME BOPETO. Grâce à votre don, nous pourrons poursuivre ces programmes et faire en sorte que le plus d'orphelins possible reçoivent l'éducation qu'ils méritent. Vous pouvez virer votre don sur le compte NL92TRIO0788778617 attn. Fondation Mboté. La Fondation Mboté a un statut ANBI. Votre don peut donc être déductible aux Pays-Bas."
         },
         "video": {
             "1": {
-                "title": "Lorem Ipsum"
+                "title": "Grâce à votre soutien, Honoré Kitera peut aller à l'école. Suivez son histoire ci-dessous."
             },
             "2": {
-                "title": "Lorem Ipsum"
+                "title": "Notre petite équipe dévouée veille à ce que chaque euro donné soit dépensé au mieux."
             }
         }
     },
     "programs": {
+        "description": "Nos programmes contribuent au bien-être des orphelins de la région de Kinshasa en République démocratique du Congo. En nous soutenant vous contribuez au développement de ces orphelins et leur offrez un avenir meilleur.",
+        
         "education": {
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            "description": "Ce programme vise à donner aux orphelins de la région de Kinshasa la meilleure éducation possible. Cela se fait dans un premier temps en fournissant du matériel scolaire comme des manuels, des stylos, des cahiers et des uniformes scolaires, mais aussi en payant les frais de scolarité des orphelins de l'enseignement primaire. L'objectif est d'élargir ce programme au fil du temps afin que les orphelins qui fréquentent l'école secondaire et même l'université puissent également être soutenus pour tirer le meilleur parti de leur programme éducatif."
         },
         "vie": {
-            "description": "blih blih"
+            "description": "Les êtres humains ont un certain nombre de besoins fondamentaux, notamment la nourriture, l'eau, la santé, les vêtements et un abri. Ce programme essaie de répondre exactement à ces besoins fondamentaux. La fondation le fait à travers des visites mensuelles aux orphelinats des environs de Kinshasa, en République démocratique du Congo, au cours desquelles des repas sont préparés pour les orphelins et de la nourriture est achetée pour les orphelinats. De plus, les orphelins reçoivent une assistance médicale si nécessaire."
         },
         "bopeto": {
-            "description": "bloh bloph"
+            "description": "La durabilité est l'un des objectifs statutaires de la fondation. Kinshasa est l'une des villes les plus polluées au monde avec une production journalière estimée de 9 000 tonnes de déchets qui finit dans les rues principalement en raison d'un manque d'élimination adéquate des déchets. La fondation tentera de convaincre les orphelins avec lesquels elle entre en contact de l'importance de garder la ville propre en informant les orphelins de l'importance de ne pas jeter les ordures dans la rue. Bopeto signifie beauté en lingala, l'une des langues officielles de la République démocratique du Congo."
         }
     },
     "about": {
@@ -105,7 +106,7 @@
             "content": "Notre équipe est composée de plusieurs volontaires en République Démocratique du Congo , avec un conseil d'administration aux Pays-Bas également composé de volontaires. Ensemble, nous nous engageons à réaliser la mission. Nous le faisons sur la base d'une approche bottom-up dans laquelle de nouveaux plans sont souvent élaborés par des volontaires locaux et ne progressent que lorsqu'un consensus a été atteint au sein de toute l'équipe."
         },
         "presentation": {
-            "title": "Presentation",
+            "title": "Présence",
             "content": "Nous sommes principalement actifs dans la région de Kinshasa, en République démocratique du Congo. Notre coordinateur local,  ainsi que les autres volontaires locaux, veillent à ce que nos ressources aient un impact maximal sur la vie des orphelins. Le conseil d'administration consulte le coordinateur local une fois par semaine pour s'assurer que nous sommes alignés en tant qu'organisation."
         }
     },

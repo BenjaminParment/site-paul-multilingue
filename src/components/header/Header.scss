@@ -12,6 +12,13 @@
     -moz-box-shadow: 0 4px 6px -6px #222;
     box-shadow: 0 4px 6px -6px #222;
 
+    background-color: white;
+
+    .logo {
+        height: 85px;
+        width: 70px;
+    }
+
     .left-container {
         margin: auto 0 auto $MARGIN_HORIZONTAL;
         display: flex;

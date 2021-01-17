@@ -31,6 +31,9 @@
 
         .profile-description {
             width: 500px;
+
+            text-align: justify;
+            word-break: keep-all;
         }
     }
 }
