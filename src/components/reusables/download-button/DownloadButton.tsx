@@ -4,15 +4,15 @@ import React from "react";
 
 interface DownloadButtonProps {
     children: JSX.Element | JSX.Element[];
-    onClick: () => void;
+    path: string;
 }
 
-export const DownloadButton: React.FC<DownloadButtonProps> = ({ children, onClick }) => {
+export const DownloadButton: React.FC<DownloadButtonProps> = ({ children, path }) => {
     return (
         <div className="download-button-parent-container">
-            <button className="download-button" onClick={onClick}>
+            <a className="download-button" href={path} download>
                 {children}
-            </button>
+            </a>
         </div>
     );
 };
