@@ -7,7 +7,8 @@
     flex-direction: column;
 
     .donation-title {
-        @include headerButton;
+        font-weight: 700;
+        font-size: 30px;
         height: 40px;
         margin-bottom: 25px;
     }
@@ -15,15 +16,14 @@
     .bottom-container {
         position: relative;
         height: 100%;
+        display: flex;
+        justify-content: space-between;
 
         .left-container {
-            position: absolute;
-            overflow: hidden;
-            height: 100%;
-            width: 45vw;
-            border: 2px solid #c1c1c1;
+            width: 45%;
             border-radius: 4px;
-            padding-left: 10px;
+            padding: 10px;
+            background-color: #fff;
 
             @include generalFont;
             text-align: justify;
@@ -37,7 +37,7 @@
             border-radius: 4px;
             margin-left: 20px;
             height: 100%;
-            width: 45vw;
+            width: 45%;
             overflow: scroll;
 
             .video-title {

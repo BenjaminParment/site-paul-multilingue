@@ -9,7 +9,8 @@
     float: left;
 
     .contact-title {
-        @include headerButton;
+        font-weight: 700;
+        font-size: 30px;
     }
 
     .contact-content {
