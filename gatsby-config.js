@@ -43,6 +43,14 @@ module.exports = {
             },
         },
         {
+
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `downloads`,
+                path: path.join(__dirname, `src`, `downloads`),
+            }
+        },
+        {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 name: `gatsby-starter-default`,

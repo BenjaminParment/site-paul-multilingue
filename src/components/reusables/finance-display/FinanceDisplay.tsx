@@ -6,17 +6,17 @@ import React from "react";
 
 interface FinanceDisplayProps {
     year: number;
-    onClick: () => void;
+    path: string;
 }
 
-export const FinanceDisplay: React.FC<FinanceDisplayProps> = ({ year, onClick }) => {
+export const FinanceDisplay: React.FC<FinanceDisplayProps> = ({ year, path }) => {
     return (
         <div className="finance-display-container">
             <span className="button-label">
                 <FormattedMessage id={"finance.download_action"} />
                 {year}
             </span>
-            <DownloadButton onClick={onClick}>
+            <DownloadButton path={path}>
                 <FormattedMessage id={"button.download"} />
             </DownloadButton>
         </div>
