@@ -14,19 +14,34 @@ const DonationsPage: React.FC = () => {
                 <div className="bottom-container">
                     <div className="left-container">
                         <FormattedMessage id="donations.description.1" />
-                        <br />
-                        <br />
-                        <FormattedMessage id="donations.description.2" />
                     </div>
                     <div className="right-container">
                         <div className="video-title">
                             <FormattedMessage id="donations.video.1.title" />
                         </div>
-                        <div className="video">Video</div>
+                        <div className="video">
+                            <iframe
+                                src={"https://www.youtube.com/embed/wxy4wiPhJkY"}
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                frameBorder="0"
+                                webkitallowfullscreen="true"
+                                mozallowfullscreen="true"
+                                allowFullScreen
+                            />
+                        </div>
                         <div className="video-title">
                             <FormattedMessage id="donations.video.2.title" />
                         </div>
-                        <div className="video">Video 2</div>
+                        <div className="video">
+                            <iframe
+                                src={"https://www.youtube.com/embed/VA261-XC5n4"}
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                frameBorder="0"
+                                webkitallowfullscreen="true"
+                                mozallowfullscreen="true"
+                                allowFullScreen
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

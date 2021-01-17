@@ -8,6 +8,7 @@ import { HeaderButtonDropdown } from "./header-button-dropdown/HeaderButtonDropd
 import LanguageButton from "components/header/language-button/LanguageButton";
 import React from "react";
 import { getChangeLanguage } from "shared/utils/languageUtils";
+import { Logo } from "components/images/logo/Logo";
 
 interface HeaderProps {
     intl: IntlShape;
@@ -18,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({ intl }) => {
         <div className="header-parent-container">
             <div className="left-container">
                 <Link className="header-title" to={HOMEPAGE_PATH}>
-                    {intl.formatMessage({ id: "title" })}
+                    <Logo className="logo" />
                 </Link>
                 <span className="header-buttons">
                     <HeaderButton id="header_buttons.about" pageUrl={ABOUT_PATH} />

@@ -13,9 +13,12 @@ const BoardPage: React.FC = () => {
         <Layout>
             <div className="board-parent-container">
                 <div className="left-container">
-                    <span className="board-title">
+                    <div className="board-title">
                         <FormattedMessage id="board.title" />
-                    </span>
+                        <span className="content">
+                            <FormattedMessage id="board.description" />
+                        </span>
+                    </div>
                     <div className="profile">
                         <ProfileDescription id="board.paul" image={<PaulProfileImage />} />
                     </div>
@@ -26,9 +29,6 @@ const BoardPage: React.FC = () => {
                     <div className="profile">
                         <ProfileDescription id="board.luc" image={<LucProfileImage />} />
                     </div>
-                </div>
-                <div className="right-container">
-                    <FormattedMessage id="board.description" />
                 </div>
             </div>
         </Layout>

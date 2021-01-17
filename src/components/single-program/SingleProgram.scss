@@ -16,13 +16,16 @@
         margin-top: 10px;
 
         .description {
+            height: fit-content;
             width: 40%;
-            background-color: #fff;
+            min-width: 290px;
             padding: 10px;
+            border: 1px solid black;
 
             @include generalFont;
             text-align: justify;
             word-break: keep-all;
+            line-height: 30px;
         }
 
         .video {

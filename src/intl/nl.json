@@ -6,28 +6,28 @@
             "board": "Bestuur",
             "voluntaries": "Vrijwilligers"
         },
-        "programs": "Programas",
-        "finance": "Financeijn",
-        "contact": "Kontact",
-        "donations": "Donations",
-        "about": "Over ons"
+        "programs": "Programma's",
+        "finance": "Jaarverslagen",
+        "contact": "Contact",
+        "donations": "Donaties",
+        "about": "Over Stichting Mboté"
     },
     "footer": {
-        "left": "Over Stichting Mbote",
+        "left": "Over Stichting Mboté",
         "middle": "Juridische informatie",
-        "right": "Kontakt"
+        "right": "Contact"
     },
     "homepage": {
         "picture_text": "WELKOM BIJ STICHTING MBOTÉ",
         "program": {
             "title": "Programma's",
             "program_1": "Education RDC 2025",
-            "program_2": "VIE",
-            "program_3": "BOPETO"
+            "program_2": "PROGRAMME VIE",
+            "program_3": "PROGRAMME BOPETO"
         }
     },
     "finance": {
-        "download_action": "Download the year: "
+        "download_action": "Download hier onze jaarverslagen: "
     },
     "board": {
         "title": "Bestuur",
@@ -58,46 +58,45 @@
         },
         "profile_3": {
             "name": "Benjamin Parment",
-            "description": "Benjamin Parment is de websiteontwikkelaar van de stichting, en is ook trouwens een klein poesje"
+            "description": "Benjamin Parment is de websiteontwikkelaar van de stichting"
         }
     },
     "contact": {
-        "title": "Kontact in mijn piemel",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title": "Neem contct met ons op",
+        "text": "Voor vragen kunt u een e-mail sturen aan stichtingmbote@gmail.com of een brief sturen naar lekstraat 74-2 1079 ET Amsterdam."
     },
     "button": {
-        "download": "Download"
+        "download": "Downloaden"
     },
     "donations": {
-        "title": "Warom donneren",        
+        "title": "Warom doneren?",        
         "description": {
-            "1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            "1": "De stichting probeert zo veel mogelijk impact te hebben op het leven van zo veel mogelijk weeskinderen in de buurt van Kinshasa. Dit doen we door het uitvoeren van onze drie programma's, EDUCATION RDC 2025, PROGRAMME VIE en PROGRAMME BOPETO. Dankzij uw donatie zullen wij deze programma’s kunnen voortzetten en er zo voor zorgen dat zo veel mogelijk weeskinderen de opvoeding krijgen die ze verdienen. U kunt uw donatie storten op rekeningnummer NL92TRIO0788778617 t.n.v. Stichting Mboté o.v.v. donatie. Stichting Mboté beschikt over een anbi status. Uw donatie is dus mogelijk aftrekbaar."
         },        
         "video": {
             "1": {
-                "title": "Lorem Ipsum"
+                "title": "Dankzij jullie steun kan Honoré Kitera naar school. Volg hieronder zijn verhaal."
             },
             "2": {
-                "title": "Lorem Ipsum"
+                "title": "Door ons kleine en toegewijde team zorgen we ervoor dat elke gedoneerde Euro zo goed mogelijk wordt besteed."
             }
         }
     },
     "programs": {
         "education": {
-            "description": "blah blah"
+            "description": "Dit programma is erop gericht weeskinderen in de regio van Kinshasa zo goed mogelijk onderwijs te kunnen laten volgen. Dit gebeurt in eerste instantie door het verschaffen van schoolmaterialen zoals schoolboeken, pennen, schriften en schooluniformen maar daarnaast ook door het betalen van schoolgeld voor weeskinderen die basisonderwijs volgen. Het doel is om dit programma op termijn uit te breiden zodat weeskinderen die naar de middelbare school gaan en zelfs universiteit ook kunnen worden ondersteund om het beste uit hun onderwijscurriculum te halen."
         },
         "vie": {
-            "description": "blah blah"
+            "description": "De mens kent een aantal basisbehoeften waaronder voedsel, water, gezondheid, kleren en onderdak. Dit programma probeert precies deze basisbehoeften te vervullen. Dit doet de stichting door maandelijkse bezoeken aan weeshuizen in de buurt van Kinshasa, Democratische Republiek Congo waarbij maaltijden voor de weeskinderen worden voorbereid en levensmiddelen worden ingekocht voor de weeshuizen. Daarnaast worden de weeskinderen medisch ondersteund waar nodig."
         },
         "bopeto": {
-            "description": "blah blah"
+            "description": "Duurzaamheid is een van de statutaire doelstellingen van de stichting. Kinshasa is een van de meest vervuilde steden ter wereld met een geschatte dagelijkse afvalproductie van 9.000 ton die voornamelijk op straat belandt bij gebrek aan adequate afvalverwerking. De stichting zal op - bescheiden schaal – door het geven van voorlichting aan de weeskinderen over het belang van het niet op straat weggooien van afval, proberen de weeskinderen waarmee zij in contact komt te overtuigen van het belang van het schoonhouden van de stad. Bopeto betekent dan ook schoonheid in het Lingala, een van de officiële talen van de Democratische Republiek Congo."
         }
     },
     "about": {
         "title": "Over de Mbappe",
         "mission": {
-            "title": "Mission",
+            "title": "Missie",
             "content": "Onze missie is om ongelijkheid in de wereld te bestrijden op een duurzame manier. Dit doen we door weeskinderen in de regio van Kinshasa, DRC te ondersteunen gedurende hun schoolcurriculum, de basisomstandigheden van de weeskinderen te verbeteren en tegelijkertijd de weeskinderen het belang van duurzaamheid bij te dragen."
         },
         "team": {
@@ -110,7 +109,7 @@
         }
     },
     "news": {
-        "title": "News",
+        "title": "Nouvelles",
         "1": "In februari 2020 heeft voorzitter Paul Deza de Massiac samen met vrijwilliger Béni Bobanga Wawa een veldbezoek gedaan naar Kinshasa, DRC. Tijdens het veldbezoek zijn er waardevolle contacten gelegd, is er gebrainstormd met het lokale team en zijn verschillende weeshuizen bezocht. Zo kunnen we garanderen dat er met de middelen van de stichting een maximale impact wordt behaald.",
         "2": "Op 1 oktober 2019 heeft voorzitter Paul Deza de Massiac een prijs gewonnen van NautaDutilh waarmee een bedrag van EUR 2.000 gemoeid is en Paul gedurende één maand zich fulltime voor de stichting kan inzetten. Deza maand zal Paul benutten voor onder meer een veldbezoek aan de lokale activiteiten in Kinshasa, DRC."
     }

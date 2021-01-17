@@ -25,18 +25,25 @@ const FinancePage: React.FC = () => {
     return (
         <Layout>
             <div className="financial-page-parent-container">
-                <span className="title">All PDF Downloads</span>
                 <div className="download-buttons">
-                    {data.allFile.edges.map((file: any, index: string) => {
-                        return (
-                            <div className="single-download-container" key={`pdf-${index}`}>
-                                <span className="year">{grabName(file.node.name)}</span>
-                                <a href={file.node.publicURL} download>
-                                    <button className="button">Download pdf</button>
-                                </a>
-                            </div>
-                        );
-                    })}
+                    <div className="single-download-container">
+                        <span className="year">{grabName(data.allFile.edges[0].node.name)}</span>
+                        <a href={data.allFile.edges[0].node.publicURL} download>
+                            <button className="button">Download pdf</button>
+                        </a>
+                    </div>
+                    <div className="single-download-container">
+                        <span className="year">{grabName(data.allFile.edges[2].node.name)}</span>
+                        <a href={data.allFile.edges[2].node.publicURL} download>
+                            <button className="button">Download pdf</button>
+                        </a>
+                    </div>
+                    <div className="single-download-container">
+                        <span className="year">{grabName(data.allFile.edges[1].node.name)}</span>
+                        <a href={data.allFile.edges[1].node.publicURL} download>
+                            <button className="button">Download pdf</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </Layout>
