@@ -6,13 +6,19 @@
     display: flex;
     flex-direction: column;
 
+    .outer-container {
+        display: block;
+        background-color: #fff;
+    }
+
     .title {
         height: 50px;
-        @include headerButton;
+        font-weight: 700;
+        font-size: 30px;
     }
 
     .mission-parent-container {
-        height: 100%;
+        min-height: 400px;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -25,34 +31,26 @@
 
         .single-program {
             display: flex;
-            align-items: center;
+            flex-direction: column;
             width: 30%;
-            border-top: 4px $PROGRAMS_TOP_BORDER solid;
-            background-color: white;
-
-            &:not(:last-child) {
-                margin-right: 30px;
-            }
+            margin: 10px;
 
             .single-program-title {
-                text-align: center;
+                margin: 10px 0;
                 width: 100%;
-                padding: 10px 0px 10px 0px;
-
-                .title {
-                    margin-left: 10px;
-                    @include headerButton;
-
-                    &:hover {
-                        color: $PRIMARY_COLOR;
-                        cursor: pointer;
-                    }
-                }
+                font-weight: 700;
+                font-size: 22px;
             }
 
             .single-program-image {
-                width: 50px;
-                height: 50px;
+                width: 80px;
+                height: 80px;
+            }
+
+            .content {
+                line-height: 30px;
+                text-align: justify;
+                word-break: keep-all;
             }
         }
     }
