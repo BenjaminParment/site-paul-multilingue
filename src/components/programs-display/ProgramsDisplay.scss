@@ -45,10 +45,15 @@ $PROGRAM_TITLE_HEIGHT: 40px;
                 .title {
                     margin-left: 10px;
                     @include headerButton;
+                    @include headerButton;
+                    border: none;
+                    background-color: transparent;
+                    cursor: pointer;
+                    text-decoration: none;
+                    color: $SECONDARY_TEXT_COLOR;
 
                     &:hover {
                         color: $PRIMARY_COLOR;
-                        cursor: pointer;
                     }
                 }
             }

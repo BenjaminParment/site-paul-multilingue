@@ -2,16 +2,12 @@ import "./ProgramsDisplay.scss";
 
 import { BOPETOProgram } from "components/images/programs/BOPETOProgram";
 import { EducationRDCProgram } from "components/images/programs/EducationRDC";
-import { FormattedMessage } from "gatsby-plugin-intl";
+import { FormattedMessage, Link } from "gatsby-plugin-intl";
 import React from "react";
 import { VieProgram } from "components/images/programs/Vie";
+import { PROGRAMS_PATH } from "shared/routes";
 
 export const ProgramsDisplay: React.FC = () => {
-    const onClick = (programId: string) => {
-        //Get me to the page with the correct tab open
-        console.log("this ", programId);
-    };
-
     return (
         <div className="programs-parent-container">
             <span className="programs-title">
@@ -20,9 +16,9 @@ export const ProgramsDisplay: React.FC = () => {
             <div className="programs-container">
                 <div className="single-program">
                     <div className="single-program-title">
-                        <span className="title">
+                        <Link to={PROGRAMS_PATH} className="title">
                             <FormattedMessage id="homepage.program.program_1" />
-                        </span>
+                        </Link>
                     </div>
                     <div className="single-program-image">
                         <EducationRDCProgram className="image" />
@@ -30,9 +26,9 @@ export const ProgramsDisplay: React.FC = () => {
                 </div>
                 <div className="single-program">
                     <div className="single-program-title">
-                        <span className="title">
+                        <Link to={PROGRAMS_PATH} className="title">
                             <FormattedMessage id="homepage.program.program_2" />
-                        </span>
+                        </Link>
                     </div>
                     <div className="single-program-image">
                         <VieProgram className="image" />
@@ -40,9 +36,9 @@ export const ProgramsDisplay: React.FC = () => {
                 </div>
                 <div className="single-program">
                     <div className="single-program-title">
-                        <span className="title">
+                        <Link to={PROGRAMS_PATH} className="title">
                             <FormattedMessage id="homepage.program.program_3" />
-                        </span>
+                        </Link>
                     </div>
                     <div className="single-program-image">
                         <BOPETOProgram className="image" />

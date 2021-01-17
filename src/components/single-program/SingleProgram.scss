@@ -1,3 +1,5 @@
+@import "~shared/style/mixins.scss";
+
 .single-program-parent-container {
     display: block;
 
@@ -15,7 +17,12 @@
 
         .description {
             width: 40%;
-            border: 1px solid #c1c1c1;
+            background-color: #fff;
+            padding: 10px;
+
+            @include generalFont;
+            text-align: justify;
+            word-break: keep-all;
         }
 
         .video {

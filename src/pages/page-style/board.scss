@@ -6,8 +6,7 @@
 
     .left-container {
         .board-title {
-            @include headerButton;
-            text-decoration: underline;
+            font-weight: 700;
             font-size: 30px;
         }
 
