@@ -2,7 +2,7 @@
     "title": "STICHTING MBOTÉ",
     "header_buttons": {
         "profile": {
-            "title": "Profile",
+            "title": "Profil",
             "board": "Conseil d'administration",
             "voluntaries": "Volontaires"
         },
@@ -96,7 +96,7 @@
         }
     },
     "about": {
-        "title": "A propes des Mbappe",
+        "title": "La fondation Mbote",
         "mission": {
             "title": "Mission",
             "content": "Notre mission est de lutter contre les inégalités dans le monde. Nous faisons cela en soutenant les orphelins de la région de Kinshasa, en RDC pendant leur parcours scolaire, en améliorant les conditions de base des orphelins tout en partageant avec les orphelins des notions de l'importance de la durabilité."
@@ -112,7 +112,7 @@
     },
     "news": {
         "title": "Nouvelles",
-        "1": "In februari 2020 heeft voorzitter Paul Deza de Massiac samen met vrijwilliger Béni Bobanga Wawa een veldbezoek gedaan naar Kinshasa, DRC. Tijdens het veldbezoek zijn er waardevolle contacten gelegd, is er gebrainstormd met het lokale team en zijn verschillende weeshuizen bezocht. Zo kunnen we garanderen dat er met de middelen van de stichting een maximale impact wordt behaald.",
-        "2": "Op 1 oktober 2019 heeft voorzitter Paul Deza de Massiac een prijs gewonnen van NautaDutilh waarmee een bedrag van EUR 2.000 gemoeid is en Paul gedurende één maand zich fulltime voor de stichting kan inzetten. Deza maand zal Paul benutten voor onder meer een veldbezoek aan de lokale activiteiten in Kinshasa, DRC."
+        "1": "En février 2020, le président Paul Deza de Massiac et le volontaire Béni Bobanga Wawa ont effectué une visite de terrain à Kinshasa, en RDC. Pendant la visite sur le terrain, des contacts précieux ont été établis, un brainstorming a été fait avec l'équipe locale et plusieurs orphelinats ont été visités. De cette façon, nous pouvons garantir qu'avec les ressources de la fondation, un impact maximal est atteint.",
+        "2": "Le 1er octobre 2019, le président Paul Deza de Massiac a reçu de NautaDutilh un prix d'une valeur de 2 000 euros qui lui a permis de se consacrer à plein temps à la fondation pendant un mois. Paul utilisera ce mois pour, entre autres, visiter des activités locales à Kinshasa, en RDC."
     }
 }
