@@ -1,9 +1,8 @@
-import "./News.scss";
-
-import React from "react";
-import { TextDisplay } from "components/reusables/text-display/TextDisplay";
 import { News1Image } from "components/images/news/News1Image";
+import { TextDisplay } from "components/reusables/text-display/TextDisplay";
 import { FormattedMessage } from "gatsby-plugin-intl";
+import React from "react";
+import "./News.scss";
 
 interface News {
     photo: JSX.Element;
@@ -22,22 +21,23 @@ export const News: React.FC = () => {
         },
     ];
 
+    const renderNews = (news: News) => {
+        return (
+            <div className="story">
+                <TextDisplay image={news.photo}>
+                    <FormattedMessage id={news.contentId} />
+                </TextDisplay>
+            </div>
+        );
+    };
+
     return (
         <div className="news-container">
             <span className="news-title">
                 <FormattedMessage id="news.title" />
             </span>
 
-            <div className="story">
-                <TextDisplay image={news[0].photo}>
-                    <FormattedMessage id={news[0].contentId} />
-                </TextDisplay>
-            </div>
-            <div className="story">
-                <TextDisplay image={news[1].photo}>
-                    <FormattedMessage id={news[1].contentId} />
-                </TextDisplay>
-            </div>
+            {news.map(renderNews)}
         </div>
     );
 };
