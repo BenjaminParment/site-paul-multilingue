@@ -1,13 +1,12 @@
+import Layout from "components/layout/Layout";
+import { graphql, useStaticQuery } from "gatsby";
+import React from "react";
 import "./page-style/finance.scss";
 
-import Layout from "components/layout/Layout";
-import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
-
 const FinancePage: React.FC = () => {
-    const data = useStaticQuery(graphql`
+    let data = useStaticQuery(graphql`
         {
-            allFile(filter: { extension: { eq: "pdf" } }) {
+            allFile(filter: { extension: { eq: "pdf" } }, sort: { fields: [name], order: DESC }) {
                 edges {
                     node {
                         publicURL
@@ -22,29 +21,21 @@ const FinancePage: React.FC = () => {
         return index.replace(/[^0-9]/g, "");
     };
 
+    const renderSingleHref = (data: any) => {
+        return (
+            <div className="single-download-container" key={data.node.name}>
+                <span className="year">{grabName(data.node.name)}</span>
+                <a href={data.node.publicURL} download>
+                    <button className="button">Download pdf</button>
+                </a>
+            </div>
+        );
+    };
+
     return (
         <Layout>
             <div className="financial-page-parent-container">
-                <div className="download-buttons">
-                    <div className="single-download-container">
-                        <span className="year">{grabName(data.allFile.edges[0].node.name)}</span>
-                        <a href={data.allFile.edges[0].node.publicURL} download>
-                            <button className="button">Download pdf</button>
-                        </a>
-                    </div>
-                    <div className="single-download-container">
-                        <span className="year">{grabName(data.allFile.edges[2].node.name)}</span>
-                        <a href={data.allFile.edges[2].node.publicURL} download>
-                            <button className="button">Download pdf</button>
-                        </a>
-                    </div>
-                    <div className="single-download-container">
-                        <span className="year">{grabName(data.allFile.edges[1].node.name)}</span>
-                        <a href={data.allFile.edges[1].node.publicURL} download>
-                            <button className="button">Download pdf</button>
-                        </a>
-                    </div>
-                </div>
+                <div className="download-buttons">{data.allFile.edges.map(renderSingleHref)}</div>
             </div>
         </Layout>
     );
