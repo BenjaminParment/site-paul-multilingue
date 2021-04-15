@@ -23,7 +23,7 @@ export const News: React.FC = () => {
 
     const renderNews = (news: News) => {
         return (
-            <div className="story">
+            <div className="story" key={news.contentId}>
                 <TextDisplay image={news.photo}>
                     <FormattedMessage id={news.contentId} />
                 </TextDisplay>
